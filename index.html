@@ -1,26 +1,593 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- TODO: Set the document title to the name of your application -->
-    <title>Lovable App</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laboratorio de Herpetología</title>
 
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  <!-- Fuentes: Playfair Display (elegante/científica) + Source Sans 3 (legible) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+  <!-- marked.js: convierte Markdown a HTML en el navegador -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <style>
+    /* ─── VARIABLES DE COLOR ─────────────────────────────────── */
+    :root {
+      --verde-oscuro:   #1a3a2a;   /* color principal: verde selva */
+      --verde-medio:    #2d5a3d;
+      --verde-claro:    #4a7c59;
+      --dorado:         #c8a84b;   /* acento cálido */
+      --crema:          #f7f4ee;   /* fondo */
+      --blanco:         #ffffff;
+      --gris-texto:     #3a3a3a;
+      --gris-suave:     #e8e4dc;
+      --sombra:         rgba(26,58,42,0.12);
+    }
+
+    /* ─── RESET Y BASE ───────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 1.75;
+      color: var(--gris-texto);
+      background: var(--crema);
+    }
+
+    /* ─── HEADER ─────────────────────────────────────────────── */
+    header {
+      background: var(--verde-oscuro);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px var(--sombra);
+    }
+
+    .header-brand {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 0.85rem 0;
+      text-decoration: none;
+    }
+
+    .header-brand img {
+      height: 52px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    /* Si no hay logo, mostrar ícono SVG de serpiente */
+    .logo-placeholder {
+      height: 52px;
+      width: 52px;
+      background: var(--verde-medio);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+    }
+
+    .header-titles {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header-titles .lab-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--blanco);
+      letter-spacing: 0.01em;
+      line-height: 1.2;
+    }
+
+    .header-titles .univ-name {
+      font-size: 0.78rem;
+      font-weight: 300;
+      color: var(--dorado);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    /* ─── NAVEGACIÓN ─────────────────────────────────────────── */
+    nav {
+      display: flex;
+      gap: 0.25rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--crema);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.5rem 0.8rem;
+      border-radius: 4px;
+      transition: background 0.2s, color 0.2s;
+      white-space: nowrap;
+    }
+
+    nav a:hover,
+    nav a.active {
+      background: var(--dorado);
+      color: var(--verde-oscuro);
+    }
+
+    /* ─── CARRUSEL ───────────────────────────────────────────── */
+    #carousel {
+      position: relative;
+      width: 100%;
+      height: 460px;
+      overflow: hidden;
+      background: var(--verde-oscuro);
+    }
+
+    .carousel-slide {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    .carousel-slide.active { opacity: 1; }
+
+    .carousel-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+
+    /* Capa de texto sobre el carrusel */
+    .carousel-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 2rem 2.5rem;
+      background: linear-gradient(transparent, rgba(10,30,18,0.78));
+      color: var(--blanco);
+    }
+
+    .carousel-caption p {
+      font-size: 0.9rem;
+      font-style: italic;
+      color: rgba(255,255,255,0.85);
+    }
+
+    /* Controles del carrusel */
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255,255,255,0.2);
+      border: 2px solid rgba(255,255,255,0.4);
+      color: white;
+      font-size: 1.5rem;
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+      z-index: 10;
+    }
+
+    .carousel-btn:hover { background: rgba(200,168,75,0.7); }
+    .carousel-btn.prev { left: 1.2rem; }
+    .carousel-btn.next { right: 1.2rem; }
+
+    /* Indicadores (puntos) */
+    .carousel-dots {
+      position: absolute;
+      bottom: 1rem;
+      right: 2rem;
+      display: flex;
+      gap: 0.5rem;
+      z-index: 10;
+    }
+
+    .carousel-dots span {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.4);
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .carousel-dots span.active { background: var(--dorado); }
+
+    /* Mensaje cuando no hay fotos */
+    .carousel-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,0.5);
+      font-size: 0.9rem;
+      gap: 0.75rem;
+    }
+
+    .carousel-placeholder .icon { font-size: 3rem; }
+
+    /* ─── CONTENIDO PRINCIPAL ────────────────────────────────── */
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 2rem 4rem;
+    }
+
+    /* ─── ESTILOS PARA EL MARKDOWN RENDERIZADO ───────────────── */
+    #content h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.1rem;
+      font-weight: 700;
+      color: var(--verde-oscuro);
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.6rem;
+      border-bottom: 3px solid var(--dorado);
+      line-height: 1.25;
+    }
+
+    #content h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.45rem;
+      font-weight: 600;
+      color: var(--verde-medio);
+      margin: 2.5rem 0 0.85rem;
+    }
+
+    #content h3 {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--verde-oscuro);
+      margin: 1.8rem 0 0.4rem;
+    }
+
+    #content p {
+      margin-bottom: 1rem;
+    }
+
+    #content ul, #content ol {
+      margin: 0.5rem 0 1rem 1.5rem;
+    }
+
+    #content li { margin-bottom: 0.3rem; }
+
+    #content a {
+      color: var(--verde-claro);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    #content a:hover { color: var(--dorado); }
+
+    #content strong { font-weight: 600; color: var(--verde-oscuro); }
+
+    #content em { font-style: italic; }
+
+    #content hr {
+      border: none;
+      border-top: 1px solid var(--gris-suave);
+      margin: 2rem 0;
+    }
+
+    /* Tablas */
+    #content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      font-size: 0.93rem;
+    }
+
+    #content th {
+      background: var(--verde-oscuro);
+      color: var(--blanco);
+      padding: 0.6rem 1rem;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    #content td {
+      padding: 0.55rem 1rem;
+      border-bottom: 1px solid var(--gris-suave);
+    }
+
+    #content tr:nth-child(even) td { background: rgba(74,124,89,0.06); }
+
+    /* Blockquotes / destacados */
+    #content blockquote {
+      border-left: 4px solid var(--dorado);
+      padding: 0.75rem 1.25rem;
+      margin: 1.5rem 0;
+      background: rgba(200,168,75,0.08);
+      font-style: italic;
+      color: var(--verde-oscuro);
+    }
+
+    /* ─── CARGA ──────────────────────────────────────────────── */
+    .loading {
+      text-align: center;
+      padding: 3rem;
+      color: var(--verde-claro);
+      font-style: italic;
+    }
+
+    /* ─── FOOTER ─────────────────────────────────────────────── */
+    footer {
+      background: var(--verde-oscuro);
+      color: rgba(255,255,255,0.65);
+      text-align: center;
+      padding: 1.5rem 2rem;
+      font-size: 0.82rem;
+    }
+
+    footer a {
+      color: var(--dorado);
+      text-decoration: none;
+    }
+
+    /* ─── RESPONSIVO ─────────────────────────────────────────── */
+    @media (max-width: 700px) {
+      header { padding: 0 1rem; }
+      #carousel { height: 260px; }
+      .carousel-caption { padding: 1rem 1.2rem; }
+      nav a { font-size: 0.78rem; padding: 0.4rem 0.55rem; }
+      main { padding: 2rem 1.2rem 3rem; }
+      #content h1 { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       HEADER
+  ═══════════════════════════════════════════ -->
+  <header>
+    <a class="header-brand" href="#" onclick="loadSection('home'); return false;">
+      <!-- 
+        LOGO: reemplaza la línea de abajo descomentándola y ajustando la ruta.
+        <img src="images/logo.png" alt="Logo del laboratorio" />
+        
+        Mientras tanto se muestra un emoji representativo:
+      -->
+      <div class="logo-placeholder" title="Logo del laboratorio">🦎</div>
+
+      <div class="header-titles">
+        <span class="lab-name">Laboratorio de Herpetología</span>
+        <span class="univ-name">Universidad [Nombre] &mdash; [Facultad]</span>
+      </div>
+    </a>
+
+    <nav id="nav">
+      <a href="#" onclick="loadSection('home');     return false;" data-section="home">Home</a>
+      <a href="#" onclick="loadSection('miembros'); return false;" data-section="miembros">Miembros</a>
+      <a href="#" onclick="loadSection('investigacion'); return false;" data-section="investigacion">Investigación</a>
+      <a href="#" onclick="loadSection('museo');    return false;" data-section="museo">Museo</a>
+      <a href="#" onclick="loadSection('servicios'); return false;" data-section="servicios">Servicios</a>
+      <a href="#" onclick="loadSection('enlaces');  return false;" data-section="enlaces">Enlaces</a>
+    </nav>
+  </header>
+
+  <!-- ═══════════════════════════════════════════
+       CARRUSEL (solo visible en Home)
+  ═══════════════════════════════════════════ -->
+  <div id="carousel">
+    <!-- 
+      CÓMO AGREGAR FOTOS AL CARRUSEL:
+      Pon tus imágenes en la carpeta images/home/
+      Luego edita el array CAROUSEL_IMAGES más abajo en el script.
+      Ejemplo:
+        { src: 'images/home/rana-verde.jpg', caption: 'Pristimantis sp., Andes colombianos' }
+    -->
+    <div class="carousel-placeholder" id="carousel-placeholder">
+      <span class="icon">🐸</span>
+      <span>Agrega tus fotos en <code>images/home/</code> y edita el carrusel en <code>index.html</code></span>
+    </div>
+    <button class="carousel-btn prev" onclick="carouselMove(-1)" aria-label="Anterior">&#8592;</button>
+    <button class="carousel-btn next" onclick="carouselMove(1)"  aria-label="Siguiente">&#8594;</button>
+    <div class="carousel-dots" id="carousel-dots"></div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       CONTENIDO PRINCIPAL
+  ═══════════════════════════════════════════ -->
+  <main>
+    <div id="content">
+      <div class="loading">Cargando…</div>
+    </div>
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer>
+    <p>
+      &copy; <span id="year"></span> Laboratorio de Herpetología &mdash; Universidad [Nombre].
+      Todos los derechos reservados.
+    </p>
+  </footer>
+
+
+  <!-- ═══════════════════════════════════════════
+       JAVASCRIPT
+  ═══════════════════════════════════════════ -->
+  <script>
+    /* ──────────────────────────────────────────────────────────
+       ★ CONFIGURACIÓN DEL CARRUSEL
+       Agrega aquí tus imágenes. Cópialas en images/home/
+       ────────────────────────────────────────────────────────── */
+    const CAROUSEL_IMAGES = [
+      // Descomenta y edita estas líneas con tus propias fotos:
+      // { src: 'images/home/foto1.jpg', caption: 'Pristimantis sp. — nombre del lugar' },
+      // { src: 'images/home/foto2.jpg', caption: 'Anolis sp. — nombre del lugar' },
+      // { src: 'images/home/foto3.jpg', caption: 'Bothrops asper — nombre del lugar' },
+      // { src: 'images/home/foto4.jpg', caption: 'Testudo sp. — nombre del lugar' },
+    ];
+
+    /* ──────────────────────────────────────────────────────────
+       ★ CONFIGURACIÓN GENERAL
+       ────────────────────────────────────────────────────────── */
+    const SITE_TITLE = 'Laboratorio de Herpetología';
+    const CAROUSEL_INTERVAL_MS = 5000; // milisegundos entre diapositivas
+
+    /* ──────────────────────────────────────────────────────────
+       CARRUSEL — lógica interna (no editar)
+       ────────────────────────────────────────────────────────── */
+    let currentSlide = 0;
+    let carouselTimer = null;
+
+    function buildCarousel() {
+      const carousel = document.getElementById('carousel');
+      const dotsContainer = document.getElementById('carousel-dots');
+      const placeholder = document.getElementById('carousel-placeholder');
+
+      if (!CAROUSEL_IMAGES.length) {
+        // Sin fotos: mostrar placeholder, ocultar botones
+        carousel.querySelectorAll('.carousel-btn').forEach(b => b.style.display = 'none');
+        return;
+      }
+
+      placeholder.style.display = 'none';
+
+      CAROUSEL_IMAGES.forEach((img, i) => {
+        const slide = document.createElement('div');
+        slide.className = 'carousel-slide' + (i === 0 ? ' active' : '');
+
+        const image = document.createElement('img');
+        image.src = img.src;
+        image.alt = img.caption || '';
+        image.loading = 'lazy';
+        slide.appendChild(image);
+
+        if (img.caption) {
+          const cap = document.createElement('div');
+          cap.className = 'carousel-caption';
+          cap.innerHTML = `<p><em>${img.caption}</em></p>`;
+          slide.appendChild(cap);
+        }
+
+        carousel.insertBefore(slide, carousel.querySelector('.carousel-btn.prev'));
+
+        // Punto indicador
+        const dot = document.createElement('span');
+        if (i === 0) dot.classList.add('active');
+        dot.addEventListener('click', () => goToSlide(i));
+        dotsContainer.appendChild(dot);
+      });
+
+      startAutoplay();
+    }
+
+    function goToSlide(n) {
+      const slides = document.querySelectorAll('.carousel-slide');
+      const dots   = document.querySelectorAll('.carousel-dots span');
+      if (!slides.length) return;
+
+      slides[currentSlide].classList.remove('active');
+      dots[currentSlide]?.classList.remove('active');
+
+      currentSlide = (n + slides.length) % slides.length;
+
+      slides[currentSlide].classList.add('active');
+      dots[currentSlide]?.classList.add('active');
+    }
+
+    function carouselMove(dir) {
+      goToSlide(currentSlide + dir);
+      restartAutoplay();
+    }
+
+    function startAutoplay() {
+      if (CAROUSEL_IMAGES.length < 2) return;
+      carouselTimer = setInterval(() => goToSlide(currentSlide + 1), CAROUSEL_INTERVAL_MS);
+    }
+
+    function restartAutoplay() {
+      clearInterval(carouselTimer);
+      startAutoplay();
+    }
+
+    /* ──────────────────────────────────────────────────────────
+       CARGA DE SECCIONES DESDE ARCHIVOS MARKDOWN
+       ────────────────────────────────────────────────────────── */
+    let currentSection = '';
+
+    async function loadSection(section) {
+      if (section === currentSection) return;
+      currentSection = section;
+
+      // Marcar enlace activo en la nav
+      document.querySelectorAll('nav a').forEach(a => {
+        a.classList.toggle('active', a.dataset.section === section);
+      });
+
+      // Mostrar/ocultar carrusel (solo en Home)
+      document.getElementById('carousel').style.display =
+        section === 'home' ? 'block' : 'none';
+
+      // Mostrar indicador de carga
+      const contentDiv = document.getElementById('content');
+      contentDiv.innerHTML = '<div class="loading">Cargando…</div>';
+
+      // Ir arriba de la página
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      try {
+        const res = await fetch(`content/${section}.md`);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const md = await res.text();
+        contentDiv.innerHTML = marked.parse(md);
+      } catch (err) {
+        contentDiv.innerHTML = `
+          <h1>Sección no encontrada</h1>
+          <p>No se pudo cargar <code>content/${section}.md</code>.</p>
+          <p style="color:#888;font-size:0.85rem;">
+            Si estás abriendo el archivo directamente en el navegador (file://),
+            necesitas servir el sitio con un servidor local. Ver instrucciones en README.md.
+          </p>`;
+      }
+
+      // Actualizar título de la pestaña del navegador
+      document.title = section === 'home'
+        ? SITE_TITLE
+        : `${capitalize(section)} — ${SITE_TITLE}`;
+    }
+
+    function capitalize(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+
+    /* ──────────────────────────────────────────────────────────
+       INICIO
+       ────────────────────────────────────────────────────────── */
+    document.getElementById('year').textContent = new Date().getFullYear();
+    buildCarousel();
+    loadSection('home');
+  </script>
+
+</body>
 </html>

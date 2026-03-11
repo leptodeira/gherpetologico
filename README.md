@@ -1,73 +1,148 @@
-# Welcome to your Lovable project
+# Sitio web del Laboratorio de Herpetología
 
-## Project info
+## Estructura del proyecto
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+mi-lab/
+├── index.html              ← El sitio completo (no editar salvo el carrusel)
+├── CNAME                   ← Tu dominio personalizado
+├── README.md               ← Este archivo
+│
+├── content/                ← ★ AQUÍ editas el contenido
+│   ├── home.md
+│   ├── miembros.md
+│   ├── investigacion.md
+│   ├── museo.md
+│   ├── servicios.md
+│   └── enlaces.md
+│
+└── images/                 ← ★ AQUÍ van todas las fotos
+    ├── logo.png            ← Logo del laboratorio
+    ├── home/               ← Fotos del carrusel
+    ├── miembros/           ← Fotos de cada miembro
+    ├── investigacion/      ← Figuras de proyectos
+    ├── museo/              ← Fotos de la colección
+    ├── servicios/          ← Fotos de servicios
+    └── enlaces/            ← (opcional)
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Cómo actualizar el contenido
 
-**Use GitHub Codespaces**
+### Editar texto de cualquier sección
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Abre el archivo `.md` correspondiente en la carpeta `content/`
+2. Edítalo con cualquier editor de texto (o directamente en GitHub.com)
+3. Guarda y sube los cambios a GitHub
+4. El sitio se actualiza automáticamente en 1–2 minutos
 
-## What technologies are used for this project?
+> **Tip:** Puedes editar directamente en GitHub.com sin instalar nada. Ve al archivo, haz clic en el lápiz ✏️, edita y guarda.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Cómo agregar fotos al carrusel (Home)
 
-## How can I deploy this project?
+1. Copia tus fotos en la carpeta `images/home/`  
+   (recomendado: fotos horizontales, mínimo 1200×600 px)
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+2. Abre `index.html` y busca esta sección (línea ~180):
+   ```javascript
+   const CAROUSEL_IMAGES = [
+     // Descomenta y edita:
+     // { src: 'images/home/foto1.jpg', caption: 'Pristimantis sp. — Andes' },
+   ];
+   ```
 
-## Can I connect a custom domain to my Lovable project?
+3. Descomenta las líneas y ajusta los nombres de archivo y los pies de foto.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Cómo agregar fotos de miembros
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+En `content/miembros.md` cada miembro tiene una línea como:
+```
+**Foto:** images/miembros/nombre.jpg
+```
+Esta línea es solo una referencia visual para ti — el sitio actual muestra el texto del Markdown. Si quieres que las fotos aparezcan como imágenes, usa la sintaxis de Markdown:
+```markdown
+![Nombre del investigador](images/miembros/nombre.jpg)
+```
+
+---
+
+## Cómo activar tu logo
+
+1. Copia tu logo como `images/logo.png`
+2. Abre `index.html` y busca estas líneas (~línea 140):
+   ```html
+   <!-- <img src="images/logo.png" alt="Logo del laboratorio" /> -->
+   <div class="logo-placeholder">🦎</div>
+   ```
+3. Descomenta la línea del `<img>` y elimina (o comenta) la del emoji.
+
+---
+
+## Cómo usar tu dominio personalizado
+
+1. En el archivo `CNAME`, reemplaza `tu-dominio.com` con tu dominio real
+2. En el panel de tu registrador de dominio, crea estos registros DNS:
+   ```
+   Tipo A:     185.199.108.153
+   Tipo A:     185.199.109.153
+   Tipo A:     185.199.110.153
+   Tipo A:     185.199.111.153
+   ```
+   O si usas subdominio (ej. lab.universidad.edu):
+   ```
+   Tipo CNAME: tu-usuario.github.io
+   ```
+3. En GitHub: Settings → Pages → Custom domain → ingresa tu dominio
+
+---
+
+## Ver el sitio localmente (en tu computadora)
+
+El sitio necesita un mini-servidor para cargar los archivos `.md`.
+La forma más fácil:
+
+**Opción A — Python (si lo tienes instalado):**
+```bash
+cd mi-lab
+python -m http.server 8000
+# Luego abre: http://localhost:8000
+```
+
+**Opción B — Extensión de VS Code:**  
+Instala "Live Server" y haz clic en "Go Live".
+
+**Opción C — Simplemente sube a GitHub** y revisa ahí.
+
+---
+
+## Sintaxis básica de Markdown
+
+| Quieres | Escribes |
+|---------|----------|
+| **Negrita** | `**texto**` |
+| *Cursiva* | `*texto*` |
+| # Título grande | `# Título` |
+| ## Subtítulo | `## Subtítulo` |
+| [Enlace](https://url.com) | `[texto](https://url.com)` |
+| ![Imagen](ruta.jpg) | `![descripción](images/foto.jpg)` |
+| Lista | `- elemento` |
+| Línea divisoria | `---` |
+
+---
+
+## Personalización del color
+
+Para cambiar los colores del sitio, abre `index.html` y edita las variables al inicio del CSS:
+
+```css
+:root {
+  --verde-oscuro:  #1a3a2a;   /* color principal */
+  --dorado:        #c8a84b;   /* color de acento */
+  --crema:         #f7f4ee;   /* fondo de la página */
+}
+```
