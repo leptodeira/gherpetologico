@@ -1,4 +1,4 @@
-# Laboratorio de Herpetología
+# Grupo Herpetológico de Antioquia
 
 Somos un grupo de investigación dedicado al estudio de anfibios y reptiles neotropicales. Nuestro trabajo abarca la taxonomía, ecología, conservación y biogeografía de la herpetofauna, con énfasis en las especies de [tu región/país].
 

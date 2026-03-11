@@ -2,7 +2,7 @@
 
 ## Profesores
 
-### Dr. [Nombre Apellido]
+### Victor M. Martinez
 **Cargo:** Profesor asociado, Director del laboratorio  
 **Email:** nombre@universidad.edu  
 **Foto:** images/miembros/director.jpg  
@@ -29,10 +29,10 @@ Colaborador en proyectos de conservación de tortugas continentales.
 
 ## Estudiantes de posgrado
 
-### [Nombre Apellido]
+### Victor Manuel Martinez, Biol., MsC
 **Nivel:** Doctorado  
-**Tema de tesis:** Filogenia y biogeografía del género *Anolis* en los Andes  
-**Foto:** images/miembros/posgrado1.jpg  
+**Tema de tesis:** Ecología Espacial y Acustica  
+**Foto:** images/miembros/victor_martinez.jpg  
 **Año de ingreso:** 2023
 
 ---
