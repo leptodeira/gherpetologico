@@ -1,12 +1,27 @@
-# Miembros del Laboratorio
 
 ## Profesores
 
-### Victor M. Martinez
-**Cargo:** Profesor asociado, Director del laboratorio  
-**Email:** nombre@universidad.edu  
-**Foto:** images/miembros/director.jpg  
-Especialista en sistemática de serpientes neotropicales. Doctor en Biología por [Universidad]. Ha descrito más de [N] nuevas especies y publicado [N] artículos en revistas indexadas.
+<div class="miembro">
+  <img src="images/miembros/juan_daza.jpg" alt="Juan M. Daza" class="foto-miembro">
+  <div class="miembro-info">
+
+### Juan Manuel Daza, Biol., MsC, PhD
+**Posición:** Investigador Principal  
+Profesor Asociado, Instituto de Biología.  
+Curador Adjunto, Museo Universitario MUUA.  
+**Interés en investigación:** Filogenética, Biogeografía, Ecoacústica, Taxonomía  
+**Email:** <a href="mailto:juanm.daza@udea.edu.co">juanm.daza@udea.edu.co</a>
+
+<div class="miembro-links">
+  <!-- Borra las líneas que no apliquen -->
+  <a href="https://scholar.google.com/citations?user=Fpc3D0UAAAAJ&hl=es" target="_blank" class="btn-miembro scholar">Google Scholar</a>
+  <a href="https://vmartinezarias.github.io/Victor_Martinez-Arias/" target="_blank" class="btn-miembro web">Sitio personal</a>
+  <a href="https://x.com/usuario" target="_blank" class="btn-miembro x">X</a>
+  <a href="https://instagram.com/usuario" target="_blank" class="btn-miembro instagram">Instagram</a>
+</div>
+
+  </div>
+</div>
 
 ---
 
@@ -29,19 +44,47 @@ Colaborador en proyectos de conservación de tortugas continentales.
 
 ## Estudiantes de posgrado
 
+<div class="miembro">
+  <img src="images/miembros/victor_martinez.jpg" alt="Victor Martinez" class="foto-miembro">
+  <div class="miembro-info">
+
 ### Victor Manuel Martinez, Biol., MsC
-**Nivel:** Doctorado  
-**Tema de tesis:** Ecología Espacial y Acustica  
-**Foto:** images/miembros/victor_martinez.jpg  
-**Año de ingreso:** 2023
+**Posición:** Candidato a Doctor  
+**Interés en investigación:** Ecoacústica, Ecología del paisaje  
+**Email:** <a href="mailto:vmanuel.martinez@udea.edu.co">vmanuel.martinez@udea.edu.co</a>
+
+<div class="miembro-links">
+  <!-- Borra las líneas que no apliquen -->
+  <a href="https://scholar.google.com/citations?user=ZbQyORMAAAAJ&hl=es" target="_blank" class="btn-miembro scholar">Google Scholar</a>
+  <a href="https://vmartinezarias.github.io/Victor_Martinez-Arias/" target="_blank" class="btn-miembro web">Sitio personal</a>
+  <a href="https://x.com/usuario" target="_blank" class="btn-miembro x">X</a>
+  <a href="https://instagram.com/usuario" target="_blank" class="btn-miembro instagram">Instagram</a>
+</div>
+
+  </div>
+</div>
 
 ---
 
-### [Nombre Apellido]
-**Nivel:** Maestría  
-**Tema de tesis:** Ecología reproductiva de ranas del género *Pristimantis*  
-**Foto:** images/miembros/posgrado2.jpg  
-**Año de ingreso:** 2024
+<div class="miembro">
+  <img src="images/miembros/carolina_paniagua.jpg" alt="Carolina Paniagua" class="foto-miembro">
+  <div class="miembro-info">
+
+### Carolina Paniagua, Ing. Ambiental
+**Posición:** Estudiante de Maestría  
+**Interés en investigación:** Ecoacústica, Ecología del paisaje  
+**Email:** <a href="mailto:carolina.paniaguav@udea.edu.co">carolina.paniaguav@udea.edu.co</a>
+
+<div class="miembro-links">
+  <!-- Borra las líneas que no apliquen -->
+  <a href="https://scholar.google.com/citations?user=ZbQyORMAAAAJ&hl=es" target="_blank" class="btn-miembro scholar">Google Scholar</a>
+  <a href="https://vmartinezarias.github.io/Victor_Martinez-Arias/" target="_blank" class="btn-miembro web">Sitio personal</a>
+  <a href="https://x.com/usuario" target="_blank" class="btn-miembro x">X</a>
+  <a href="https://instagram.com/usuario" target="_blank" class="btn-miembro instagram">Instagram</a>
+</div>
+
+  </div>
+</div>
 
 ---
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Laboratorio de Herpetología</title>
+  <title>Grupo Herpetológico de Antioquia</title>
 
   <!-- Fuentes: Playfair Display (elegante/científica) + Source Sans 3 (legible) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,10 +16,10 @@
   <style>
     /* ─── VARIABLES DE COLOR ─────────────────────────────────── */
     :root {
-      --verde-oscuro:   #1a3a2a;   /* color principal: verde selva */
-      --verde-medio:    #2d5a3d;
+      --verde-oscuro:   #08140e;   /* color principal: verde selva */
+      --verde-medio:    #1c3f29;
       --verde-claro:    #4a7c59;
-      --dorado:         #c8a84b;   /* acento cálido */
+      --dorado:         #a8d7a7;   /* acento cálido */
       --crema:          #f7f4ee;   /* fondo */
       --blanco:         #ffffff;
       --gris-texto:     #3a3a3a;
@@ -358,6 +358,49 @@
       main { padding: 2rem 1.2rem 3rem; }
       #content h1 { font-size: 1.6rem; }
     }
+    /* ─── FOTOS DE MIEMBROS ──────────────────────────────────── */
+    img.foto-miembro {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+      flex-shrink: 0;
+    }
+
+    .miembro {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .miembro-info {
+      flex: 1;
+    }
+
+    /* ─── BOTONES DE REDES SOCIALES / MIEMBRO ────────────────── */
+    .miembro-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .btn-miembro {
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+
+    .btn-miembro.scholar,   .btn-miembro.scholar:visited   { background-color: #4285F4; color: white !important; }
+    .btn-miembro.web,       .btn-miembro.web:visited       { background-color: white; color: black !important; border: 1px solid #ccc; }
+    .btn-miembro.x,         .btn-miembro.x:visited         { background-color: #000000; color: white !important; }
+    .btn-miembro.instagram, .btn-miembro.instagram:visited { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); color: white !important; }
+
   </style>
 </head>
 
@@ -368,17 +411,10 @@
   ═══════════════════════════════════════════ -->
   <header>
     <a class="header-brand" href="#" onclick="loadSection('home'); return false;">
-      <!-- 
-        LOGO: reemplaza la línea de abajo descomentándola y ajustando la ruta.
-        <img src="images/logo.png" alt="Logo del laboratorio" />
-        
-        Mientras tanto se muestra un emoji representativo:
-      -->
-      <div class="logo-placeholder" title="Logo del laboratorio">🦎</div>
-
+      <img src="images/home/logo.png" alt="Logo del laboratorio" />
       <div class="header-titles">
-        <span class="lab-name">Laboratorio de Herpetología</span>
-        <span class="univ-name">Universidad [Nombre] &mdash; [Facultad]</span>
+        <span class="lab-name">Grupo Herpetológico de Antioquia</span>
+        <span class="univ-name">Universidad de Antioquia</span>
       </div>
     </a>
 
@@ -442,9 +478,9 @@
        ────────────────────────────────────────────────────────── */
     const CAROUSEL_IMAGES = [
       // Descomenta y edita estas líneas con tus propias fotos:
-      // { src: 'images/home/foto1.jpg', caption: 'Pristimantis sp. — nombre del lugar' },
-      // { src: 'images/home/foto2.jpg', caption: 'Anolis sp. — nombre del lugar' },
-      // { src: 'images/home/foto3.jpg', caption: 'Bothrops asper — nombre del lugar' },
+      { src: 'images/home/carrusel_11.jpeg', caption: 'El cumpleaños de la collection manager' },
+      { src: 'images/home/carrusel_33.jpg', caption: 'Muestreando en Carmen de Atrato, 2024' },
+      { src: 'images/home/carrusel_44.jpg', caption: 'Muestreando en el PNN Utria, 2023' },
       // { src: 'images/home/foto4.jpg', caption: 'Testudo sp. — nombre del lugar' },
     ];
 
