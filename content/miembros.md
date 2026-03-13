@@ -1,5 +1,5 @@
 
-## Profesores
+# Profesores
 
 <div class="miembro">
   <img src="images/miembros/juan_daza2.jpg" alt="Juan M. Daza" class="foto-miembro">
@@ -43,7 +43,7 @@ Curador Adjunto, Museo Universitario MUUA.
 </div>
 
 ---
-## Estudiantes de posgrado
+# Estudiantes de posgrado
 
 <div class="miembro">
   <img src="images/miembros/victor_m.jpg" alt="Victor M. Martinez" class="foto-miembro">
@@ -101,7 +101,7 @@ Curador Adjunto, Museo Universitario MUUA.
 </div>
 
 ---
-## Estudiantes de pregrado
+# Estudiantes de pregrado
 
 <div class="miembro">
   <img src="images/miembros/ana_londono2.jpg" alt="Ana María Londoño Flórez" class="foto-miembro">
@@ -157,7 +157,7 @@ Curador Adjunto, Museo Universitario MUUA.
   </div>
 </div>
 
-## Investigadores adjuntos
+# Investigadores adjuntos
 
 <div class="miembro">
   <img src="images/miembros/johana_perez.jpg" alt="Johana Perez" class="foto-miembro">
@@ -198,7 +198,6 @@ Curador Adjunto, Museo Universitario MUUA.
 
 ---
 
-
 <div class="miembro">
   <img src="images/miembros/wilmar_agudelo.jpg" alt="Wilmar Agudelo Sánchez" class="foto-miembro">
   <div class="miembro-info">
@@ -219,18 +218,18 @@ Curador Adjunto, Museo Universitario MUUA.
 ---
 
 <div class="miembro">
-  <img src="images/miembros/carolina_torres.jpg" alt="Carolina Torres Flórez" class="foto-miembro">
+  <img src="images/miembros/viviana_cartagena.jpg" alt="Viviana Cartagena" class="foto-miembro">
   <div class="miembro-info">
 
-### Carolina Torres Flórez, Biol.
+### Viviana Cartagena, Biol., MSc
 **Posición:** Investigadora adjunta  
-**Interés en investigación:** Biología molecular, Genómica, Biología evolutiva, Colecciones biológicas.  
-**Email:** <a href="mailto:carolina.torresf@udea.edu.co">carolina.torresf@udea.edu.co</a>
+**Interés en investigación:** Ecología y Conservación.  
+**Email:** <a href="mailto:vivicartagena@gmail.com">vivicartagena@gmail.com</a>
 
 <div class="miembro-links">
   <!-- Borra las líneas que no apliquen -->
+  <a href="https://scholar.google.com/citations?user=nKc6PTsAAAAJ&hl=es" target="_blank" class="btn-miembro scholar">Google Scholar</a>
 </div>
-
   </div>
 </div>
 
@@ -254,3 +253,19 @@ Curador Adjunto, Museo Universitario MUUA.
 </div>
 
 ---
+
+<div class="miembro">
+  <img src="images/miembros/carolina_torres.jpg" alt="Carolina Torres Flórez" class="foto-miembro">
+  <div class="miembro-info">
+
+### Carolina Torres Flórez, Biol.
+**Posición:** Investigadora adjunta  
+**Interés en investigación:** Biología molecular, Genómica, Biología evolutiva, Colecciones biológicas.  
+**Email:** <a href="mailto:carolina.torresf@udea.edu.co">carolina.torresf@udea.edu.co</a>
+
+<div class="miembro-links">
+  <!-- Borra las líneas que no apliquen -->
+</div>
+
+  </div>
+</div>
