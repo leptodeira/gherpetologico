@@ -208,49 +208,44 @@
 
 ---
 
-## Publicaciones Recientes
+# Publicaciones Recientes
 
 <ul class="pub-lista">
 
   <li class="pub-item">
-    <span class="pub-año">2024</span><br>
+    <span class="pub-año">2025</span><br>
     <strong>Apellido, N., Apellido, N. &amp; Apellido, N.</strong> (2024). Título del artículo. <em>Nombre de la Revista</em>, <em>12</em>(3), 45–67.<br>
     <a href="https://doi.org/xx.xxxx/xxxxx" target="_blank" rel="noopener">🔗 doi: xx.xxxx/xxxxx</a>
   </li>
 
   <li class="pub-item">
-    <span class="pub-año">2024</span><br>
-    <strong>Apellido, N. &amp; Apellido, N.</strong> (2024). Otro título de artículo relevante. <em>Zootaxa</em>, <em>5678</em>(1), 1–23.<br>
+    <strong>Daza, N. &amp; Apellido, N.</strong> (2024). Otro título de artículo relevante. <em>Zootaxa</em>, <em>5678</em>(1), 1–23.<br>
     <a href="https://doi.org/xx.xxxx/xxxxx" target="_blank" rel="noopener">🔗 doi: xx.xxxx/xxxxx</a>
   </li>
 
   <li class="pub-item">
-    <span class="pub-año">2023</span><br>
     <strong>Apellido, N., Apellido, N. &amp; Apellido, N.</strong> (2023). Descripción de una nueva especie del género <em>Pristimantis</em>. <em>Zootaxa</em>, <em>5234</em>(2), 201–220.<br>
     <a href="https://doi.org/xx.xxxx/xxxxx" target="_blank" rel="noopener">🔗 doi: xx.xxxx/xxxxx</a>
   </li>
 
   <li class="pub-item">
-    <span class="pub-año">2023</span><br>
     <strong>Apellido, N.</strong> (2023). Uso de hábitat en serpientes. <em>Herpetologica</em>, <em>79</em>(1), 12–28.<br>
     <a href="https://doi.org/xx.xxxx/xxxxx" target="_blank" rel="noopener">🔗 doi: xx.xxxx/xxxxx</a>
   </li>
 
   <li class="pub-item">
-    <span class="pub-año">2022</span><br>
+    <span class="pub-año">2024</span><br>
     <strong>Apellido, N. &amp; Apellido, N.</strong> (2022). Biogeografía histórica de tortugas. <em>Journal of Biogeography</em>, <em>49</em>(5), 890–905.<br>
     <a href="https://doi.org/xx.xxxx/xxxxx" target="_blank" rel="noopener">🔗 doi: xx.xxxx/xxxxx</a>
   </li>
 
 </ul>
 
----
 
-## Más Publicaciones
 
 <div class="scholar-cta">
-  <p>Consulta el listado completo de nuestra producción científica</p>
+  <p>Consulta nuestra producción científica</p>
   <a class="btn-scholar" href="https://scholar.google.com/citations?user=XXXXX" target="_blank" rel="noopener">
-    📚 Ver todas en Google Scholar
+    📚 Ver en Google Scholar
   </a>
 </div>
