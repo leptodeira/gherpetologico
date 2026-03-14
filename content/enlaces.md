@@ -1,14 +1,23 @@
-# Enlaces de interés
+
+# Nuestros productos
+
+
+
+
+
+# Otros enlaces de interés
 
 ## Bases de datos y repositorios
 
-- [GBIF — Global Biodiversity Information Facility](https://www.gbif.org)
-- [VertNet](http://vertnet.org)
-- [HerpNet](http://www.herpnet.org)
-- [AmphibiaWeb](https://amphibiaweb.org)
+- [Amphibians Species of the World](https://amphibiansoftheworld.amnh.org)
 - [The Reptile Database](http://www.reptile-database.org)
+- [AmphibiaWeb](https://amphibiaweb.org)
 - [IUCN Red List](https://www.iucnredlist.org)
 - [Map of Life](https://mol.org)
+- [VertNet](http://vertnet.org)
+- [HerpNet](http://www.herpnet.org)
+- [GBIF](https://www.gbif.org)
+- [iNaturalist](https://www.inaturalist.org)
 
 ---
 
@@ -19,7 +28,7 @@
 - [Zootaxa](https://www.mapress.com/zt/)
 - [South American Journal of Herpetology](http://www.sajh.com.br)
 - [Caldasia](https://revistas.unal.edu.co/index.php/cal)
-- [Biota Colombiana / nombre de revista regional](https://revistas.humboldt.org.co/index.php/biota)
+- [Biota Colombiana](https://revistas.humboldt.org.co/index.php/biota)
 
 ---
 
@@ -28,7 +37,7 @@
 - [Society for the Study of Amphibians and Reptiles (SSAR)](https://ssarherps.org)
 - [Herpetologists' League](https://www.herpetologistsleague.org)
 - [World Congress of Herpetology](http://www.worldcongressofherpetology.org)
-- [Asociación Colombiana de Herpetología / nombre de asociación nacional](https://www.asociacioncolombianadeherpetologia.org)
+- [Asociación Colombiana de Herpetología](https://www.acherpetologia.org)
 
 ---
 
@@ -42,7 +51,7 @@
 
 ## Nuestra universidad
 
-- [Universidad [Nombre]](https://www.universidad.edu)
+- [Universidad de Antioquia](https://www.udea.edu.co)
 - [Facultad de [Nombre]](https://www.universidad.edu/facultad)
 - [Departamento de [Nombre]](https://www.universidad.edu/departamento)
 
