@@ -569,6 +569,18 @@
     }
 
     /* ──────────────────────────────────────────────────────────
+       MUSEO — funciones de modales
+       ────────────────────────────────────────────────────────── */
+    function museoModal(id) {
+      const el = document.getElementById('modal-' + id);
+      if (el) { el.classList.add('open'); document.body.style.overflow = 'hidden'; }
+    }
+    function museoModalClose(id) {
+      const el = document.getElementById('modal-' + id);
+      if (el) { el.classList.remove('open'); document.body.style.overflow = ''; }
+    }
+
+    /* ──────────────────────────────────────────────────────────
        CARGA DE SECCIONES DESDE ARCHIVOS MARKDOWN
        ────────────────────────────────────────────────────────── */
     let currentSection = '';
@@ -598,6 +610,15 @@
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const md = await res.text();
         contentDiv.innerHTML = marked.parse(md);
+
+        // Re-ejecutar scripts embebidos en el markdown (ej: museo.md)
+        contentDiv.querySelectorAll('script').forEach(oldScript => {
+          const newScript = document.createElement('script');
+          newScript.textContent = oldScript.textContent;
+          document.body.appendChild(newScript);
+          // No se elimina: debe quedar para que los event listeners persistan
+        });
+
       } catch (err) {
         contentDiv.innerHTML = `
           <h1>Sección no encontrada</h1>
