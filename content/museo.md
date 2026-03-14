@@ -278,7 +278,7 @@
 ---
 
 <p class="museo-intro">
-El Museo de Herpetología de la Universidad de Antioquia (MHUA) es una colección científica de referencia que resguarda especímenes de anfibios y reptiles de Colombia y otras regiones neotropicales. Custodia la diversidad herpetológica, apoya la investigación taxonómica y biogeográfica, y sirve como patrimonio biológico de acceso público para la comunidad científica nacional e internacional.
+El Museo de Herpetología de la Universidad de Antioquia (MHUA) es una colección científica de referencia que resguarda especímenes de anfibios y reptiles de Colombia. El próposito de la colección esta enmarcado en los tres ejes misionales de la Universidad de Antioquia: Docencia, Investigación y Extensión. Es asi como la colección contribuye a la formación de estudiantes en cursos de pregrado y posgrado apoya cursos de pregrado Custodia la diversidad herpetológica, apoya la investigación taxonómica y biogeográfica, y sirve como patrimonio biológico de acceso público para la comunidad científica nacional e internacional.
 </p>
 
 ---
@@ -302,7 +302,7 @@ El Museo de Herpetología de la Universidad de Antioquia (MHUA) es una colecció
     <button class="museo-modal-close" onclick="museoModalClose('ingreso')" aria-label="Cerrar">×</button>
     <h3>📥 Ingreso de especímenes</h3>
     <p>
-      Para depositar especímenes en el MHUA, complete el formulario de ingreso con los datos de colecta, determinación taxonómica y permisos de recolección. Los materiales son evaluados por el curador antes de ser incorporados oficialmente a la colección.
+      Para depositar especímenes en el MHUA, complete el formulario de ingreso con los datos de colecta, determinación taxonómica y permisos de recolección. El estado de los especímenes y la calidad de los datos serán evaluados por la curaduría antes de ser incorporados oficialmente a la colección.
     </p>
     <a class="modal-link" href="formularios/ingreso_especimenes.xlsx" download>
       ⬇ Descargar formulario
@@ -316,10 +316,10 @@ El Museo de Herpetología de la Universidad de Antioquia (MHUA) es una colecció
     <button class="museo-modal-close" onclick="museoModalClose('informacion')" aria-label="Cerrar">×</button>
     <h3>✉️ Solicitud de información</h3>
     <p>
-      Para consultas sobre la colección, préstamos de especímenes, datos de catálogo o cualquier otra información, comuníquese directamente con la curaduria del museo a través del correo institucional.
+      Si requiere información asociada a los ejemplares depositados en el MHUA comuníquese directamente con la curaduria del museo a través del correo institucional. Tambien puede acceder a los enlaces que se muestran al final de esta página.
     </p>
-    <a class="modal-link" href="mailto:mhua@udea.edu.co">
-      ✉ mhua@udea.edu.co
+    <a class="modal-link" href="mailto:museo.herpetologia@udea.edu.co">
+      ✉ museo.herpetologia@udea.edu.co
     </a>
   </div>
 </div>
@@ -330,7 +330,7 @@ El Museo de Herpetología de la Universidad de Antioquia (MHUA) es una colecció
     <button class="museo-modal-close" onclick="museoModalClose('revision')" aria-label="Cerrar">×</button>
     <h3>🔍 Revisión de ejemplares</h3>
     <p>
-      Los investigadores que deseen revisar ejemplares de la colección en sala deben completar el formulario de solicitud de visita, indicando el taxón de interés, el propósito de la revisión y las fechas tentativas. Las visitas están sujetas a disponibilidad del personal.
+      Los investigadores que deseen revisar ejemplares de la colección en nuestras instalaciones o solicitar un préstamo de ellos, deben completar el formulario de solicitud, indicando el taxón de interés, el propósito de la revisión y las fechas tentativas. Las visitas están sujetas a disponibilidad del personal y a las políticas de ingreso de la Universidad.
     </p>
     <a class="modal-link" href="formularios/revision_ejemplares.xlsx" download>
       ⬇ Descargar formulario
