@@ -64,17 +64,21 @@ En años recientes, y en coherencia con tendencias internacionales y necesidades
   </style>
 
   <div class="gha-apps-grid">
-    <a href="https://colombianfrogs.github.io/sounds/" class="gha-app-card">
+    <a href="https://www.inaturalist.org/projects/amphibians-and-reptiles-of-colombia" target="_blank" class="gha-app-card">
+      <span>Herpetofauna de Colombia</span>
+      <img src="images/enlaces/col_inat.png" alt="Herpetos de Colombia"/>
+    </a>
+    <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-app-card">
       <span>Dataverso de Sonidos</span>
-      <img src="images/home/col_sou.png" alt="Dataverso de Sonidos"/>
+      <img src="images/enlaces/col_sou.png" alt="Dataverso de Sonidos"/>
     </a>
-    <a href="URL_ANFIBIOS" class="gha-app-card">
+    <a href="https://leptodeira.github.io/anfibios/" target="_blank" class="gha-app-card">
       <span>Anfibios de Colombia</span>
-      <img src="images/home/col_anf.png" alt="Anfibios de Colombia"/>
+      <img src="images/enlaces/col_anf.png" alt="Anfibios de Colombia"/>
     </a>
-    <a href="URL_REPTILES" class="gha-app-card">
+    <a href="https://leptodeira.github.io/reptiles/" target="_blank" class="gha-app-card">
       <span>Reptiles de Colombia</span>
-      <img src="images/home/col_rep.png" alt="Reptiles de Colombia"/>
+      <img src="images/enlaces/col_rep.png" alt="Reptiles de Colombia"/>
     </a>
   </div>
 </div>

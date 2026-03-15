@@ -48,7 +48,7 @@ El Grupo Herpetológico de Antioquia ofrece servicios especializados en herpetol
 
 <div class="servicios-contacto">
   <p>Para cualquiera de estos servicios, <strong>comunícate con nosotros</strong>.</p>
-  <a class="btn-contacto" href="#" onclick="loadSection('contacto'); return false;">Contacto</a>
+  <a class="btn-contacto" href="mailto:juanm.daza@udea.edu.co">Enviar correo</a>
 </div>
 
 <style>

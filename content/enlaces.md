@@ -1,7 +1,68 @@
 
 # Nuestros productos
 
+<div style="margin-top:48px; margin-bottom:48px;">
+  <style>
+    .gha-apps-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 32px;
+    }
+    .gha-app-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+      width: 180px;
+      transition: transform 0.2s ease;
+    }
+    .gha-app-card:hover {
+      transform: translateY(-4px);
+    }
+    .gha-app-card span {
+      font-size: 15px;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 12px;
+      color: #1b5e20;
+    }
+    .gha-app-card img {
+      width: 140px;
+      height: 140px;
+      object-fit: contain;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    }
+    @media (max-width: 600px) {
+      .gha-apps-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+      }
+    }
+  </style>
 
+  <div class="gha-apps-grid">
+    <a href="https://www.inaturalist.org/projects/amphibians-and-reptiles-of-colombia" target="_blank" class="gha-app-card">
+      <span>Herpetofauna de Colombia</span>
+      <img src="images/enlaces/col_inat.png" alt="Herpetos de Colombia"/>
+    </a>
+    <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-app-card">
+      <span>Dataverso de Sonidos</span>
+      <img src="images/enlaces/col_sou.png" alt="Dataverso de Sonidos"/>
+    </a>
+    <a href="https://leptodeira.github.io/anfibios/" target="_blank" class="gha-app-card">
+      <span>Anfibios de Colombia</span>
+      <img src="images/enlaces/col_anf.png" alt="Anfibios de Colombia"/>
+    </a>
+    <a href="https://leptodeira.github.io/reptiles/" target="_blank" class="gha-app-card">
+      <span>Reptiles de Colombia</span>
+      <img src="images/enlaces/col_rep.png" alt="Reptiles de Colombia"/>
+    </a>
+  </div>
+</div>
 
 
 
@@ -34,10 +95,10 @@
 
 ## Sociedades científicas
 
+- [Asociación Colombiana de Herpetología](https://www.acherpetologia.org)
 - [Society for the Study of Amphibians and Reptiles (SSAR)](https://ssarherps.org)
 - [Herpetologists' League](https://www.herpetologistsleague.org)
 - [World Congress of Herpetology](http://www.worldcongressofherpetology.org)
-- [Asociación Colombiana de Herpetología](https://www.acherpetologia.org)
 
 ---
 
@@ -52,13 +113,6 @@
 ## Nuestra universidad
 
 - [Universidad de Antioquia](https://www.udea.edu.co)
-- [Facultad de [Nombre]](https://www.universidad.edu/facultad)
-- [Departamento de [Nombre]](https://www.universidad.edu/departamento)
+- [Colecciones Biológicas UdeA](https://www.udea.edu.co/wps/portal/udea/web/inicio/cultura)
 
----
 
-## Redes y colaboradores
-
-- [Laboratorio colaborador 1](https://url.com)
-- [Red de Monitoreo de Biodiversidad — nombre](https://url.com)
-- [Instituto de Investigación colaborador](https://url.com)
