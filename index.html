@@ -402,6 +402,82 @@
     .btn-miembro.x,         .btn-miembro.x:visited         { background-color: #000000; color: white !important; }
     .btn-miembro.instagram, .btn-miembro.instagram:visited { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); color: white !important; }
 
+
+    /* ─── POPUP GRABADORA PASIVA ─────────────────────────────── */
+    #apk-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(8,20,14,0.72);
+      z-index: 999;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    #apk-overlay.open {
+      display: flex;
+    }
+    #apk-modal {
+      background: var(--crema);
+      border-radius: 16px;
+      max-width: 420px;
+      width: 100%;
+      padding: 2rem;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+      position: relative;
+      text-align: center;
+    }
+    #apk-modal .apk-close {
+      position: absolute;
+      top: 0.75rem;
+      right: 1rem;
+      background: none;
+      border: none;
+      font-size: 1.4rem;
+      cursor: pointer;
+      color: var(--verde-claro);
+      line-height: 1;
+    }
+    #apk-modal .apk-icon {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    #apk-modal h2 {
+      font-family: 'Playfair Display', serif;
+      color: var(--verde-oscuro);
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+    }
+    #apk-modal p {
+      font-size: 0.95rem;
+      color: var(--gris-texto);
+      margin-bottom: 1.25rem;
+      line-height: 1.6;
+    }
+    #apk-modal .apk-btn {
+      display: inline-block;
+      background: var(--verde-medio);
+      color: var(--blanco);
+      text-decoration: none;
+      padding: 0.75rem 1.75rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: background 0.2s;
+      margin-bottom: 0.75rem;
+    }
+    #apk-modal .apk-btn:hover {
+      background: var(--verde-claro);
+    }
+    #apk-modal .apk-note {
+      font-size: 0.78rem;
+      color: #888;
+      margin-top: 0.5rem;
+      line-height: 1.5;
+    }
+    #apk-modal .apk-note a {
+      color: var(--verde-claro);
+    }
   </style>
 </head>
 
@@ -646,7 +722,62 @@
     document.getElementById('year').textContent = new Date().getFullYear();
     buildCarousel();
     loadSection('home');
+
+    /* ──────────────────────────────────────────────────────────
+       POPUP GRABADORA PASIVA
+       ────────────────────────────────────────────────────────── */
+    function apkOpen() {
+      const isAndroid = /android/i.test(navigator.userAgent);
+      const isMobile  = /android|iphone|ipad|ipod|mobile/i.test(navigator.userAgent);
+      const note = document.getElementById('apk-note');
+      const btn  = document.getElementById('apk-action-btn');
+      const msg  = document.getElementById('apk-msg');
+
+      if (isAndroid) {
+        msg.textContent = 'Convierte tu celular Android en una grabadora pasiva para monitoreo de fauna.';
+        btn.textContent = '⬇️ Instalar APK';
+        btn.style.display = 'inline-block';
+        note.innerHTML = `Después de descargar, abre el archivo.<br>
+          Si Android lo bloquea, ve a <strong>Ajustes → Seguridad → Instalar apps desconocidas</strong>
+          y permite la instalación desde tu navegador.`;
+      } else {
+        msg.textContent = 'Convierte tu celular Android en una grabadora pasiva para monitoreo de fauna.';
+        btn.textContent = '⬇️ Descargar APK';
+        btn.style.display = 'inline-block';
+        note.innerHTML = `⚠️ Esta app es <strong>solo para Android</strong>.<br>
+          Descarga el archivo y transfiérelo a tu celular para instalarlo.<br><br>
+          <a href="https://github.com/leptodeira/gherpetologico/releases/latest" target="_blank">Ver todas las versiones →</a>`;
+      }
+
+      document.getElementById('apk-overlay').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function apkClose(e) {
+      if (e && e.target !== document.getElementById('apk-overlay')) return;
+      document.getElementById('apk-overlay').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') apkClose(null);
+    });
+
   </script>
+
+  <!-- ═══════════════════════════════════════════
+       POPUP GRABADORA PASIVA
+  ═══════════════════════════════════════════ -->
+  <div id="apk-overlay" onclick="apkClose(event)">
+    <div id="apk-modal">
+      <button class="apk-close" onclick="apkClose(null)">✕</button>
+      <div class="apk-icon">🎙️</div>
+      <h2>Grabadora Pasiva</h2>
+      <p id="apk-msg">Convierte tu celular Android en una grabadora pasiva para monitoreo de fauna.</p>
+      <a id="apk-action-btn" href="https://github.com/leptodeira/gherpetologico/releases/latest/download/GrabPasiva_1.0.1.apk" class="apk-btn">⬇️ Descargar APK</a>
+      <div class="apk-note" id="apk-note"></div>
+    </div>
+  </div>
 
 </body>
 </html>
