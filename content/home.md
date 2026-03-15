@@ -1,5 +1,5 @@
 <div align="center" style="margin-bottom:40px;">
-  <img src="images/home/logo_texto.png" alt="Logo Grupo Herpetológico de Antioquia" width="300"/>
+  <img src="images/home/logo_texto.png" alt="Logo Grupo Herpetológico de Antioquia" width="400"/>
 </div>
 
 El **Grupo Herpetológico de Antioquia** (GHA) nació en 1997 en la Universidad de Antioquia, bajo el liderazgo de la profesora Vivian P. Páez y el impulso de un grupo de estudiantes interesados en caracterizar la fauna de anfibios y reptiles de la región. Desde sus inicios, el grupo se propuso desarrollar investigaciones sistemáticas sobre la herpetofauna de Antioquia y áreas cercanas, dando origen al **Museo de Herpetología Universidad de Antioquia** (MHUA), hoy reconocido como un referente nacional.
@@ -16,4 +16,65 @@ En años recientes, y en coherencia con tendencias internacionales y necesidades
   <a href="mailto:juanm.daza@udea.edu.co" style="display:inline-block; background-color:#2e7d32; color:white; padding:14px 32px; font-size:16px; font-weight:bold; text-decoration:none; border-radius:8px; letter-spacing:1px;">
     ✉️ Escríbenos
   </a>
+</div>
+
+---
+
+<div style="margin-top:48px; margin-bottom:48px;">
+  <style>
+    .gha-apps-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 32px;
+    }
+    .gha-app-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+      width: 180px;
+      transition: transform 0.2s ease;
+    }
+    .gha-app-card:hover {
+      transform: translateY(-4px);
+    }
+    .gha-app-card span {
+      font-size: 15px;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 12px;
+      color: #1b5e20;
+    }
+    .gha-app-card img {
+      width: 140px;
+      height: 140px;
+      object-fit: contain;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    }
+    @media (max-width: 600px) {
+      .gha-apps-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 28px;
+      }
+    }
+  </style>
+
+  <div class="gha-apps-grid">
+    <a href="https://colombianfrogs.github.io/sounds/" class="gha-app-card">
+      <span>Dataverso de Sonidos</span>
+      <img src="images/home/col_sou.png" alt="Dataverso de Sonidos"/>
+    </a>
+    <a href="URL_ANFIBIOS" class="gha-app-card">
+      <span>Anfibios de Colombia</span>
+      <img src="images/home/col_anf.png" alt="Anfibios de Colombia"/>
+    </a>
+    <a href="URL_REPTILES" class="gha-app-card">
+      <span>Reptiles de Colombia</span>
+      <img src="images/home/col_rep.png" alt="Reptiles de Colombia"/>
+    </a>
+  </div>
 </div>
