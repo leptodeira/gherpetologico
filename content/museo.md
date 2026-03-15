@@ -382,7 +382,7 @@ document.addEventListener('keydown', function(e) {
   <img src="images/museo/tipo.jpg" alt="Ejemplar tipo MHUA" class="tipo-foto" />
   <div class="tipo-desc">
     <p>
-      Los ejemplares tipo son los especímenes de referencia sobre los cuales se fundamenta la descripción original de una especie y representan un acervo de valor irremplazable para la ciencia. El <strong>MHUA</strong> alberga XX holotipos de anfibios y XX de reptiles. Entre estos se encuentra la serie tipo de <i>Magdalenasaura</i>, el único género de reptiles endémico para Colombia. Adicionalmente, el museo contiene XX paratipos de anfibios y XX de reptiles.
+      Los ejemplares tipo son los especímenes de referencia sobre los cuales se fundamenta la descripción original de una especie y representan un acervo de valor irremplazable para la ciencia. El <strong>MHUA</strong> alberga 21 holotipos de anfibios y 17 de reptiles. Entre estos se encuentra la serie tipo de <i>Magdalenasaura</i>, el único género de reptiles endémico para Colombia. Adicionalmente, el museo contiene 284 paratipos de anfibios y 147 de reptiles.
     </p>
   </div>
 </div>
