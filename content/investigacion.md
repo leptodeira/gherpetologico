@@ -210,33 +210,33 @@
 
 # Publicaciones Recientes
 
+
 <ul class="pub-lista">
 
   <li class="pub-item">
     <span class="pub-año">2025</span><br>
-    <strong>Apellido, N., Apellido, N. &amp; Apellido, N.</strong> (2024). Título del artículo. <em>Nombre de la Revista</em>, <em>12</em>(3), 45–67.<br>
-    <a href="https://doi.org/xx.xxxx/xxxxx" target="_blank" rel="noopener">🔗 doi: xx.xxxx/xxxxx</a>
+    <strong>Páez, V. P., Bock, B. C. &amp; Cartagena-Otálvaro, V. M. </strong> (2025). Life history characteristics of the Colombian Wood Turtle, Rhinoclemmys melanosterna (Gray, 1861), in the middle Magdalena River, Colombia. <em>Herpetology Notes</em>, <em>18</em>(3), 921–930.<br>
   </li>
 
   <li class="pub-item">
-    <strong>Daza, N. &amp; Apellido, N.</strong> (2024). Otro título de artículo relevante. <em>Zootaxa</em>, <em>5678</em>(1), 1–23.<br>
-    <a href="https://doi.org/xx.xxxx/xxxxx" target="_blank" rel="noopener">🔗 doi: xx.xxxx/xxxxx</a>
+    <strong>Martinez-Arias, V. M., Paniagua-Villada, C., Guerrero, M. J., &amp; Daza, J.</strong> (2025). A workflow to optimize spatial sampling in ecoacoustic studies. <em>Zootaxa</em>, <em>5678</em>(1), 1–23.<br>
+    <a href="https://doi.org/10.21203/rs.3.rs-7207339/v2" target="_blank" rel="noopener">🔗 doi: 10.21203/rs.3.rs-7207339/v2</a>
   </li>
 
   <li class="pub-item">
-    <strong>Apellido, N., Apellido, N. &amp; Apellido, N.</strong> (2023). Descripción de una nueva especie del género <em>Pristimantis</em>. <em>Zootaxa</em>, <em>5234</em>(2), 201–220.<br>
-    <a href="https://doi.org/xx.xxxx/xxxxx" target="_blank" rel="noopener">🔗 doi: xx.xxxx/xxxxx</a>
+    <strong>Marín, C. M., Bocanumenth, D., &amp; Daza, J. M.</strong> (2025). The colorful giants: Revisiting the systematics of the Anolis latifrons series (Squamata: Anolidae). <em>Vertebrate Zoology</em>, <em>75</em>(2), 441-457.<br>
+    <a href="https://doi.org/10.3897/vz.75.e162071" target="_blank" rel="noopener">🔗 doi: 10.3897/vz.75.e162071</a>
   </li>
 
   <li class="pub-item">
-    <strong>Apellido, N.</strong> (2023). Uso de hábitat en serpientes. <em>Herpetologica</em>, <em>79</em>(1), 12–28.<br>
-    <a href="https://doi.org/xx.xxxx/xxxxx" target="_blank" rel="noopener">🔗 doi: xx.xxxx/xxxxx</a>
+    <strong>Vásquez-Restrepo, J. D., &amp;  Daza, J. M.</strong> (2025).  A new species of hedgehog-lizard of the genus Echinosaura (Squamata: Gymnophthalmidae) from Colombia and Panama with a reevaluation of the conservation status of the genus. <em>Zootaxa</em>, <em>5583</em>(1), 128-142.<br>
+    <a href="https://doi.org/10.11646/zootaxa.5583.1.7" target="_blank" rel="noopener">🔗 doi: 10.11646/zootaxa.5583.1.7</a>
   </li>
 
   <li class="pub-item">
     <span class="pub-año">2024</span><br>
-    <strong>Apellido, N. &amp; Apellido, N.</strong> (2022). Biogeografía histórica de tortugas. <em>Journal of Biogeography</em>, <em>49</em>(5), 890–905.<br>
-    <a href="https://doi.org/xx.xxxx/xxxxx" target="_blank" rel="noopener">🔗 doi: xx.xxxx/xxxxx</a>
+    <strong>Rivera-Correa, M., Ron, S., Nunes, I., Araujo-Vieira, K., Pinheiro, P. D., &amp; Grant, T.</strong> (2024). Forty years later: a new Andean stream treefrog of the genus Hyloscirtus (Anura: Hylidae) from Ecuador, with comments on arm hypertrophy in the H. larinopygion group. <em>Zootaxa</em>, <em>5474</em>(2), 101-126.<br>
+    <a href="https://doi.org/10.11646/zootaxa.5474.2.1" target="_blank" rel="noopener">🔗 doi: 10.11646/zootaxa.5474.2.1</a>
   </li>
 
 </ul>
