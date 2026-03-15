@@ -278,7 +278,7 @@
 ---
 
 <p class="museo-intro">
-Con más de 22,000 especímenes, el Museo de Herpetología Universidad de Antioquia (MHUA) es una colección científica de referencia que resguarda especímenes de anfibios y reptiles de gran parte de Colombia. El próposito de la colección esta enmarcado en los tres ejes misionales de la Universidad de Antioquia: Docencia, Investigación y Extensión. Es asi como la colección contribuye con la formación de estudiantes en cursos de pregrado y posgrado apoya cursos de pregrado Custodia la diversidad herpetológica, apoya la investigación taxonómica y biogeográfica, y sirve como patrimonio biológico de acceso público para la comunidad científica nacional e internacional.
+Con más de 22,000 especímenes y 11,000 tejidos, el Museo de Herpetología Universidad de Antioquia (MHUA) es una colección científica de referencia que resguarda especímenes de anfibios y reptiles de gran parte de Colombia. El próposito de la colección esta enmarcado en los tres ejes misionales de la Universidad de Antioquia: Docencia, Investigación y Extensión. Es así como la colección contribuye con la formación de estudiantes en cursos de pregrado y posgrado y adicionalemente custodia la diversidad herpetológica, apoya la investigación taxonómica y biogeográfica, y sirve como patrimonio biológico de acceso público para la comunidad científica nacional e internacional.
 </p>
 
 ---
