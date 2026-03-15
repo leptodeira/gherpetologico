@@ -68,7 +68,7 @@
   }
 
   .linea-texto p {
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: #5a5a5a;
     line-height: 1.8;
     margin: 0 !important;
@@ -80,7 +80,7 @@
   .pub-item {
     border-top: 1px solid var(--gris-suave);
     padding: 1.2rem 0;
-    font-size: 0.92rem;
+    font-size: 1rem;
     line-height: 1.7;
   }
 
@@ -161,7 +161,7 @@
       <span class="linea-num">01</span>
       <h2 class="linea-titulo">Sistemática y Biogeografía</h2>
       <div class="linea-divisor"></div>
-      <p>Integramos herramientas de filogenética molecular, morfología comparada y biogeografía histórica para delimitar y describir la diversidad de la herpetofauna neotropical. A través del análisis de marcadores genéticos y caracteres morfológicos cuantitativos, revisamos relaciones evolutivas y patrones de distribución geográfica, apoyados en nuestra <strong>Colección Herpetológica</strong> como repositorio de referencia taxonómica y fuente primaria de especímenes voucher para estudios de sistemática y biodiversidad.</p>
+      <p>Integramos herramientas de filogenética molecular, morfología comparada y biogeografía histórica para delimitar y describir la diversidad de la herpetofauna Colombiana. A través de análisis genéticos y caracteres morfológicos cuantitativos, estimamos relaciones evolutivas, patrones de distribución geográfica y tomamos decisiones taxonómicas. Contamos con un laboratorio para procesar muestras genéticas y custodiamos mas de 22,000 ejemplares y 11,000 tejidos en el <strong><a href="#" onclick="loadSection('museo'); return false;">Museo de Herpetología Universidad de Antioquia (MHUA)</a></strong>.</p>
     </div>
   </div>
 
@@ -174,7 +174,7 @@
       <span class="linea-num">02</span>
       <h2 class="linea-titulo">Bioacústica y Ecoacústica</h2>
       <div class="linea-divisor"></div>
-      <p>Estudiamos la comunicación acústica de anfibios y su función en el reconocimiento de especie, la selección de pareja y la competencia intraespecífica. Empleamos grabación pasiva y análisis espectral para caracterizar repertorios vocales y, mediante índices ecoacústicos, evaluamos la integridad y la riqueza bioacústica de comunidades en hábitats con distintos grados de intervención antrópica.</p>
+      <p>Estudiamos la comunicación acústica en anfibios y reptiles y su relación con el ambiente. Utilizamos esta información para incorporarla como evidencia en estudios taxonómicos. Adicionalmente, llevamos 15 años recopilando datos de paisajes sonoros a lo largo del país y hemos diseñado herramientas para su análisis. Para esto, colaboramos con el grupo Sistemic de la Facultad de Ingeniería de la UdeA. Como resultado, hemos generado herramientas computacionales para el análisis de las señales acústicas a nivel poblacional, de comunidades y de paisaje.</p>
     </div>
   </div>
 
@@ -187,7 +187,7 @@
       <span class="linea-num">03</span>
       <h2 class="linea-titulo">Ecología de Anfibios y Reptiles</h2>
       <div class="linea-divisor"></div>
-      <p>Investigamos la estructura de comunidades herpetológicas, el uso de microhábitat, la fenología reproductiva y las relaciones tróficas en ecosistemas andinos, altoandinos y secos. Nuestros estudios combinan inventarios de campo, modelado de nicho ecológico y análisis de dieta para comprender los factores bióticos y abióticos que determinan la distribución y abundancia de las especies.</p>
+      <p>Investigamos la enorme variabilidad ecológica de la herpetofauna colombiana desde los tres ejes de la diversidad biológica: composición, estructura y función. Nuestros estudios combinan inventarios de campo, estudios de rasgos de historia natural y fisiología ecológica para comprender los factores bióticos y abióticos que determinan la distribución y abundancia de la herpetofauna.</p>
     </div>
   </div>
 
@@ -210,34 +210,34 @@
 
 # Publicaciones Recientes
 
+**En negrita se resaltan los miembros del GHA**
 
 <ul class="pub-lista">
 
   <li class="pub-item">
-    <span class="pub-año">2025</span><br>
-    <strong>Páez, V. P., Bock, B. C. &amp; Cartagena-Otálvaro, V. M. </strong> (2025). Life history characteristics of the Colombian Wood Turtle, Rhinoclemmys melanosterna (Gray, 1861), in the middle Magdalena River, Colombia. <em>Herpetology Notes</em>, <em>18</em>(3), 921–930.<br>
+    <strong>Páez, V. P., Bock, B. C. &amp; Cartagena-Otálvaro, V. M. </strong> (2025). Life history characteristics of the Colombian Wood Turtle, <i>Rhinoclemmys melanosterna</i> (Gray, 1861), in the middle Magdalena River, Colombia. <em>Herpetology Notes</em>, 18(3), 921–930.<br>
   </li>
 
   <li class="pub-item">
-    <strong>Martinez-Arias, V. M., Paniagua-Villada, C., Guerrero, M. J., &amp; Daza, J.</strong> (2025). A workflow to optimize spatial sampling in ecoacoustic studies. <em>Zootaxa</em>, <em>5678</em>(1), 1–23.<br>
+    <strong>Martinez-Arias, V. M., Paniagua-Villada, C.</strong>, Guerrero, M. J., <strong>&amp; Daza, J.M.</strong> (2025). A workflow to optimize spatial sampling in ecoacoustic studies. PREPRINT (Version 2) available at Research Square.<br>
     <a href="https://doi.org/10.21203/rs.3.rs-7207339/v2" target="_blank" rel="noopener">🔗 doi: 10.21203/rs.3.rs-7207339/v2</a>
   </li>
 
   <li class="pub-item">
-    <strong>Marín, C. M., Bocanumenth, D., &amp; Daza, J. M.</strong> (2025). The colorful giants: Revisiting the systematics of the Anolis latifrons series (Squamata: Anolidae). <em>Vertebrate Zoology</em>, <em>75</em>(2), 441-457.<br>
+    Gallego, J., Maria J. Guerrero, M.J., <strong>Daza, J.M.</strong>, Isaza, C., &amp;  López, J.D. (2025). Detecting labeling errors in bioacoustics through dimensionality reduction and clustering techniques. <i>Ecological Informatics</i>, 92, 103484.<br>
+    <a href="https://doi.org/10.21203/rs.3.rs-7207339/v2" target="_blank" rel="noopener">🔗 doi: 10.21203/rs.3.rs-7207339/v2</a>
+  </li>
+
+  <li class="pub-item">
+    <strong>Marín, C. M., Bocanumenth, D., &amp; Daza, J. M.</strong> (2025). The colorful giants: Revisiting the systematics of the <i>Anolis latifrons</i> series (Squamata: Anolidae). <em>Vertebrate Zoology</em>, 75(2), 441–457.<br>
     <a href="https://doi.org/10.3897/vz.75.e162071" target="_blank" rel="noopener">🔗 doi: 10.3897/vz.75.e162071</a>
   </li>
 
   <li class="pub-item">
-    <strong>Vásquez-Restrepo, J. D., &amp;  Daza, J. M.</strong> (2025).  A new species of hedgehog-lizard of the genus Echinosaura (Squamata: Gymnophthalmidae) from Colombia and Panama with a reevaluation of the conservation status of the genus. <em>Zootaxa</em>, <em>5583</em>(1), 128-142.<br>
+    <strong>Vásquez-Restrepo, J. D., &amp;  Daza, J. M.</strong> (2025).  A new species of hedgehog-lizard of the genus <i>Echinosaura</i> (Squamata: Gymnophthalmidae) from Colombia and Panama with a reevaluation of the conservation status of the genus. <em>Zootaxa</em>, 5583(1), 128–142.<br>
     <a href="https://doi.org/10.11646/zootaxa.5583.1.7" target="_blank" rel="noopener">🔗 doi: 10.11646/zootaxa.5583.1.7</a>
   </li>
 
-  <li class="pub-item">
-    <span class="pub-año">2024</span><br>
-    <strong>Rivera-Correa, M., Ron, S., Nunes, I., Araujo-Vieira, K., Pinheiro, P. D., &amp; Grant, T.</strong> (2024). Forty years later: a new Andean stream treefrog of the genus Hyloscirtus (Anura: Hylidae) from Ecuador, with comments on arm hypertrophy in the H. larinopygion group. <em>Zootaxa</em>, <em>5474</em>(2), 101-126.<br>
-    <a href="https://doi.org/10.11646/zootaxa.5474.2.1" target="_blank" rel="noopener">🔗 doi: 10.11646/zootaxa.5474.2.1</a>
-  </li>
 
 </ul>
 
