@@ -58,7 +58,7 @@
     <a href="https://www.inaturalist.org/projects/amphibians-and-reptiles-of-colombia" target="_blank" class="gha-card">
       <img src="images/enlaces/col_inat.png" alt="iNaturalist"/>
       <div class="gha-card-title">Herpetofauna de Colombia</div>
-      <p class="gha-card-desc">En 2011 el GHA en conjunto con la ACH creo el proyecto Anfibios y Reptiles de Colombia que hoy tienen mas de 116,000 observaciones y sigue creciendo.</p>
+      <p class="gha-card-desc">En 2011 el GHA en conjunto con la ACH creo el proyecto Anfibios y Reptiles de Colombia que hoy incluye mas de 116,000 observaciones y sigue creciendo.</p>
     </a>
     <a href="https://view.genial.ly/5fb54b6d7ccdc50d43fbf166/interactive-content-ghasau-final" target="_blank" class="gha-card">
       <img src="images/enlaces/genially.jpg" alt="Lagartos"/>
@@ -68,7 +68,7 @@
     <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-card">
       <img src="images/enlaces/col_sou.png" alt="Sonidos"/>
       <div class="gha-card-title">Dataverso de Sonidos</div>
-      <p class="gha-card-desc">Con el objetivo de visualizar en un mismo sitio los datos acústicos disponibles para anfibios Colombianos en el GHA creamos y mantenemos este sitio que sirve tanto para la comunidad académica como toda la comunidad interesada en aprender de sonidos de Colombia.</p>
+      <p class="gha-card-desc">Con el objetivo de visualizar y acceder en un mismo sitio los datos acústicos disponibles para anfibios Colombianos diseñamos y mantenemos este sitio que sirve para la comunidad académica y general.</p>
     </a>
     <a href="#" onclick="apkOpen(); return false;" class="gha-card">
       <img src="images/enlaces/pasiva.png" alt="Grabadora Pasiva"/>
