@@ -49,6 +49,10 @@
       <span>Herpetofauna de Colombia</span>
       <img src="images/enlaces/col_inat.png" alt="Herpetos de Colombia"/>
     </a>
+    <a href="https://view.genial.ly/5fb54b6d7ccdc50d43fbf166/interactive-content-ghasau-final" target="_blank" class="gha-app-card">
+      <span>Familias Lagartos</span>
+      <img src="images/enlaces/genially.jpg" alt="Lagartos Colombia"/>
+    </a>
     <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-app-card">
       <span>Dataverso de Sonidos</span>
       <img src="images/enlaces/col_sou.png" alt="Dataverso de Sonidos"/>
