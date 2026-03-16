@@ -58,32 +58,32 @@
     <a href="https://www.inaturalist.org/projects/amphibians-and-reptiles-of-colombia" target="_blank" class="gha-card">
       <img src="images/enlaces/col_inat.png" alt="iNaturalist"/>
       <div class="gha-card-title">Herpetofauna de Colombia</div>
-      <p class="gha-card-desc">Proyecto iNaturalist con registros de anfibios y reptiles del país.</p>
+      <p class="gha-card-desc">En 2011 el GHA en conjunto con la ACH creo el proyecto Anfibios y Reptiles de Colombia que hoy tienen mas de 116,000 observaciones y sigue creciendo.</p>
     </a>
     <a href="https://view.genial.ly/5fb54b6d7ccdc50d43fbf166/interactive-content-ghasau-final" target="_blank" class="gha-card">
       <img src="images/enlaces/genially.jpg" alt="Lagartos"/>
       <div class="gha-card-title">Familias Lagartos</div>
-      <p class="gha-card-desc">Recurso interactivo para identificar las principales familias de lagartos de Colombia.</p>
+      <p class="gha-card-desc">Durante la pandemia de covid generamos un recurso interactivo para identificar las familias de lagartos de Colombia.</p>
     </a>
     <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-card">
       <img src="images/enlaces/col_sou.png" alt="Sonidos"/>
       <div class="gha-card-title">Dataverso de Sonidos</div>
-      <p class="gha-card-desc">Repositorio de vocalizaciones de ranas y sapos colombianos.</p>
+      <p class="gha-card-desc">Con el objetivo de visualizar en un mismo sitio los datos acústicos disponibles para anfibios Colombianos en el GHA creamos y mantenemos este sitio que sirve tanto para la comunidad académica como toda la comunidad interesada en aprender de sonidos de Colombia.</p>
     </a>
     <a href="#" onclick="apkOpen(); return false;" class="gha-card">
       <img src="images/enlaces/pasiva.png" alt="Grabadora Pasiva"/>
       <div class="gha-card-title">Grabadora Pasiva</div>
-      <p class="gha-card-desc">App para monitoreo acústico pasivo en campo.</p>
+      <p class="gha-card-desc">App para Android que convierte tu telefono celular en una grabadora pasiva.</p>
     </a>
     <a href="https://leptodeira.github.io/anfibios/" target="_blank" class="gha-card">
       <img src="images/enlaces/col_anf.png" alt="Anfibios"/>
       <div class="gha-card-title">Anfibios de Colombia</div>
-      <p class="gha-card-desc">Catálogo digital de las especies de anfibios registradas en Colombia.</p>
+      <p class="gha-card-desc">Clave interactiva para la identificación de anfibios de Colombia. Funciona tambien sin acceso a internet. Es una app para computador, iOS y Android.</p>
     </a>
     <a href="https://leptodeira.github.io/reptiles/" target="_blank" class="gha-card">
       <img src="images/enlaces/col_rep.png" alt="Reptiles"/>
       <div class="gha-card-title">Reptiles de Colombia</div>
-      <p class="gha-card-desc">Catálogo digital de las especies de reptiles registradas en Colombia.</p>
+      <p class="gha-card-desc">Clave interactiva para la identificación de reptiles de Colombia. Funciona tambien sin acceso a internet. Es una app para computador, iOS y Android..</p>
     </a>
   </div>
 </div>
