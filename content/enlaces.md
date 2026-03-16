@@ -3,71 +3,87 @@
 
 <div style="margin-top:48px; margin-bottom:48px;">
   <style>
-    .gha-apps-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 32px;
+    .gha-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
     }
-    .gha-app-card {
+    .gha-card {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-decoration: none;
       color: inherit;
-      width: 180px;
-      transition: transform 0.2s ease;
+      background: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 14px;
+      padding: 1.25rem 1rem 1rem;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
-    .gha-app-card:hover {
-      transform: translateY(-4px);
+    .gha-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.10);
     }
-    .gha-app-card span {
-      font-size: 15px;
+    .gha-card img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+    .gha-card-title {
+      font-size: 13px;
       font-weight: 600;
       text-align: center;
-      margin-bottom: 12px;
       color: #1b5e20;
+      margin-bottom: 6px;
+      line-height: 1.3;
     }
-    .gha-app-card img {
-      width: 140px;
-      height: 140px;
-      object-fit: contain;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    .gha-card-desc {
+      font-size: 12px;
+      color: #666;
+      text-align: center;
+      line-height: 1.5;
+      margin: 0;
     }
-    @media (max-width: 600px) {
-      .gha-apps-grid {
-        flex-direction: column;
-        align-items: center;
-        gap: 28px;
-      }
+    @media (max-width: 560px) {
+      .gha-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
+    }
+    @media (max-width: 360px) {
+      .gha-grid { grid-template-columns: 1fr; }
     }
   </style>
 
-  <div class="gha-apps-grid">
-    <a href="https://www.inaturalist.org/projects/amphibians-and-reptiles-of-colombia" target="_blank" class="gha-app-card">
-      <span>Herpetofauna de Colombia</span>
-      <img src="images/enlaces/col_inat.png" alt="Herpetos de Colombia"/>
+  <div class="gha-grid">
+    <a href="https://www.inaturalist.org/projects/amphibians-and-reptiles-of-colombia" target="_blank" class="gha-card">
+      <img src="images/enlaces/col_inat.png" alt="iNaturalist"/>
+      <div class="gha-card-title">Herpetofauna de Colombia</div>
+      <p class="gha-card-desc">Proyecto iNaturalist con registros de anfibios y reptiles del país.</p>
     </a>
-    <a href="https://view.genial.ly/5fb54b6d7ccdc50d43fbf166/interactive-content-ghasau-final" target="_blank" class="gha-app-card">
-      <span>Familias Lagartos</span>
-      <img src="images/enlaces/genially.jpg" alt="Lagartos Colombia"/>
+    <a href="https://view.genial.ly/5fb54b6d7ccdc50d43fbf166/interactive-content-ghasau-final" target="_blank" class="gha-card">
+      <img src="images/enlaces/genially.jpg" alt="Lagartos"/>
+      <div class="gha-card-title">Familias Lagartos</div>
+      <p class="gha-card-desc">Recurso interactivo para identificar las principales familias de lagartos de Colombia.</p>
     </a>
-    <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-app-card">
-      <span>Dataverso de Sonidos</span>
-      <img src="images/enlaces/col_sou.png" alt="Dataverso de Sonidos"/>
+    <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-card">
+      <img src="images/enlaces/col_sou.png" alt="Sonidos"/>
+      <div class="gha-card-title">Dataverso de Sonidos</div>
+      <p class="gha-card-desc">Repositorio de vocalizaciones de ranas y sapos colombianos.</p>
     </a>
-    <a href="#" onclick="apkOpen(); return false;" class="gha-app-card">
-      <span>Grabadora Pasiva</span>
+    <a href="#" onclick="apkOpen(); return false;" class="gha-card">
       <img src="images/enlaces/pasiva.png" alt="Grabadora Pasiva"/>
+      <div class="gha-card-title">Grabadora Pasiva</div>
+      <p class="gha-card-desc">App para monitoreo acústico pasivo en campo.</p>
     </a>
-    <a href="https://leptodeira.github.io/anfibios/" target="_blank" class="gha-app-card">
-      <span>Anfibios de Colombia</span>
-      <img src="images/enlaces/col_anf.png" alt="Anfibios de Colombia"/>
+    <a href="https://leptodeira.github.io/anfibios/" target="_blank" class="gha-card">
+      <img src="images/enlaces/col_anf.png" alt="Anfibios"/>
+      <div class="gha-card-title">Anfibios de Colombia</div>
+      <p class="gha-card-desc">Catálogo digital de las especies de anfibios registradas en Colombia.</p>
     </a>
-    <a href="https://leptodeira.github.io/reptiles/" target="_blank" class="gha-app-card">
-      <span>Reptiles de Colombia</span>
-      <img src="images/enlaces/col_rep.png" alt="Reptiles de Colombia"/>
+    <a href="https://leptodeira.github.io/reptiles/" target="_blank" class="gha-card">
+      <img src="images/enlaces/col_rep.png" alt="Reptiles"/>
+      <div class="gha-card-title">Reptiles de Colombia</div>
+      <p class="gha-card-desc">Catálogo digital de las especies de reptiles registradas en Colombia.</p>
     </a>
   </div>
 </div>
