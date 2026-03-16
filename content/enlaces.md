@@ -1,5 +1,5 @@
 
-# Nuestros productos
+# Recursos generados por el GHA
 
 <div style="margin-top:48px; margin-bottom:48px;">
   <style>
