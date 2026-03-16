@@ -63,7 +63,7 @@
     <a href="https://view.genial.ly/5fb54b6d7ccdc50d43fbf166/interactive-content-ghasau-final" target="_blank" class="gha-card">
       <img src="images/enlaces/genially.jpg" alt="Lagartos"/>
       <div class="gha-card-title">Familias Lagartos</div>
-      <p class="gha-card-desc">Durante la pandemia de covid generamos un recurso interactivo para identificar las familias de lagartos de Colombia.</p>
+      <p class="gha-card-desc">Durante la pandemia de covid generamos en Genially Education un recurso interactivo para identificar las familias de lagartos de Colombia.</p>
     </a>
     <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-card">
       <img src="images/enlaces/col_sou.png" alt="Sonidos"/>
