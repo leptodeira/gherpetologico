@@ -57,10 +57,6 @@ Profesor Asociado, Instituto de Biología.
   <a href="https://scholar.google.com/citations?user=ov0ddhYAAAAJ&hl=es" target="_blank" class="btn-miembro scholar">Google Scholar</a>
 </div>
 
-<div class="miembro-links">
- 
-</div>
-
   </div>
 </div>
 
