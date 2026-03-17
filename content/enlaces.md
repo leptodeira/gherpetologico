@@ -75,11 +75,6 @@
       <div class="gha-card-title">Grabadora Pasiva</div>
       <p class="gha-card-desc">App para Android que convierte tu telefono celular en una grabadora pasiva.</p>
     </a>
-    <a href="https://leptodeira.github.io/anfibios/" target="_blank" class="gha-card">
-      <img src="images/enlaces/col_anf.png" alt="Anfibios"/>
-      <div class="gha-card-title">Anfibios de Colombia</div>
-      <p class="gha-card-desc">Clave interactiva para la identificación de anfibios de Colombia. Funciona tambien sin acceso a internet. Es una app para computador, iOS y Android.</p>
-    </a>
     <a href="https://leptodeira.github.io/reptiles/" target="_blank" class="gha-card">
       <img src="images/enlaces/col_rep.png" alt="Reptiles"/>
       <div class="gha-card-title">Reptiles de Colombia</div>
