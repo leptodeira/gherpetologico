@@ -21,6 +21,27 @@ Curador Adjunto, Museo Universitario MUUA.
 </div>
 
 ---
+
+<div class="miembro">
+  <img src="images/miembros/mauricio_rivera.jpg" alt="Mauricio Rivera" class="foto-miembro">
+  <div class="miembro-info">
+
+### Mauricio Rivera, Biol., PhD
+**Posición:** Investigador Principal  
+Profesor Asociado, Instituto de Biología.  
+**Interés en investigación:** Sistemática, Taxonomía, Biodiversidad, Conservación Biológica, Divulgación Científica  
+**Email:** <a href="mailto:mauricio.rivera1@udea.edu.co">mauricio.rivera1@udea.edu.co</a>
+
+<div class="miembro-links">
+  <!-- Borra las líneas que no apliquen -->
+  <a href="https://scholar.google.com/citations?user=tAJ3TjYAAAAJ&hl=es&oi=ao" target="_blank" class="btn-miembro scholar">Google Scholar</a>
+</div>
+  <a href="https://www.instagram.com/biodiversitario/" target="_blank" class="btn-miembro instagram">Instagram</a>
+  </div>
+</div>
+
+---
+
 <div class="miembro">
   <img src="images/miembros/vivian_paez.jpg" alt="Vivian P. Páez" class="foto-miembro">
   <div class="miembro-info">
