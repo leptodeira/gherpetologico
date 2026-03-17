@@ -304,7 +304,7 @@ Con más de 22,000 especímenes y 11,000 tejidos, el Museo de Herpetología Univ
     <p>
       Para depositar especímenes en el MHUA, complete el formulario de ingreso con los datos de colecta, determinación taxonómica y permisos de recolección. El estado de los especímenes y la calidad de los datos serán evaluados por la curaduría antes de ser incorporados oficialmente a la colección.
     </p>
-    <a class="modal-link" href="formularios/ingreso_especimenes.xlsx" download>
+    <a class="modal-link" href="forms/MHUA_Plantilla_ingreso_especimenes_v202603.xlsx" download>
       ⬇ Descargar formulario
     </a>
   </div>
