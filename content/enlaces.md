@@ -78,7 +78,7 @@
     <a href="https://leptodeira.github.io/reptiles/" target="_blank" class="gha-card">
       <img src="images/enlaces/col_rep.png" alt="Reptiles"/>
       <div class="gha-card-title">Reptiles de Colombia</div>
-      <p class="gha-card-desc">Clave interactiva para la identificación de reptiles de Colombia. Funciona tambien sin acceso a internet. Es una app para computador, iOS y Android..</p>
+      <p class="gha-card-desc">Clave interactiva para la identificación de reptiles de Colombia. Funciona tambien sin acceso a internet. Es una app para computador, iOS y Android.</p>
     </a>
   </div>
 </div>
