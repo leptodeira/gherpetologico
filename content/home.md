@@ -79,10 +79,6 @@ El impacto del GHA se refleja en su liderazgo en publicaciones científicas, con
       <span>Grabadora Pasiva</span>
       <img src="images/enlaces/pasiva.png" alt="Grabadora Pasiva"/>
     </a>
-    <a href="https://leptodeira.github.io/anfibios/" target="_blank" class="gha-app-card">
-      <span>Anfibios de Colombia</span>
-      <img src="images/enlaces/col_anf.png" alt="Anfibios de Colombia"/>
-    </a>
     <a href="https://leptodeira.github.io/reptiles/" target="_blank" class="gha-app-card">
       <span>Reptiles de Colombia</span>
       <img src="images/enlaces/col_rep.png" alt="Reptiles de Colombia"/>
