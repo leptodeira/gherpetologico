@@ -35,7 +35,6 @@ Profesor Asociado, Instituto de Biología.
 <div class="miembro-links">
   <!-- Borra las líneas que no apliquen -->
   <a href="https://scholar.google.com/citations?user=tAJ3TjYAAAAJ&hl=es&oi=ao" target="_blank" class="btn-miembro scholar">Google Scholar</a>
-</div>
   <a href="https://www.instagram.com/biodiversitario/" target="_blank" class="btn-miembro instagram">Instagram</a>
   </div>
 </div>
