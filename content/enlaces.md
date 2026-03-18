@@ -70,6 +70,11 @@
       <div class="gha-card-title">Familias Lagartos</div>
       <p class="gha-card-desc">Durante la pandemia de covid generamos en Genially Education un recurso interactivo para identificar las familias de lagartos de Colombia.</p>
     </a>
+    <a href="https://view.genially.com/5fc19711b74d070cf7c8e541" target="_blank" class="gha-card">
+      <img src="images/enlaces/genially.jpg" alt="Tortugas"/>
+      <div class="gha-card-title">Tortugas de Colombia</div>
+      <p class="gha-card-desc">Recurso interactivo para identificar las familias de tortugas de Colombia. Incluye información sobre las especies del páis.</p>
+    </a>
     <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-card">
       <img src="images/enlaces/col_sou.png" alt="Sonidos"/>
       <div class="gha-card-title">Dataverso de Sonidos</div>

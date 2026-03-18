@@ -75,6 +75,10 @@ El impacto del GHA se refleja en su liderazgo en publicaciones científicas, con
       <span>Familias Lagartos</span>
       <img src="images/enlaces/genially.jpg" alt="Lagartos Colombia"/>
     </a>
+    <a href="https://view.genially.com/5fc19711b74d070cf7c8e541" target="_blank" class="gha-app-card">
+      <span>Tortugas de Colombia</span>
+      <img src="images/enlaces/genially.jpg" alt="Tortugas Colombia"/>
+    </a>
     <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-app-card">
       <span>Dataverso de Sonidos</span>
       <img src="images/enlaces/col_sou.png" alt="Dataverso de Sonidos"/>
