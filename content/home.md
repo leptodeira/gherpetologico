@@ -67,6 +67,10 @@ El impacto del GHA se refleja en su liderazgo en publicaciones científicas, con
       <span>Herpetofauna de Colombia</span>
       <img src="images/enlaces/col_inat.png" alt="Herpetos de Colombia"/>
     </a>
+    <a href="https://view.genially.com/5fb54b6a48db0b0cf2370ca0" target="_blank" class="gha-app-card">
+      <span>Familias Anfibios</span>
+      <img src="images/enlaces/genially.jpg" alt="Anfibios Colombia"/>
+    </a>
     <a href="https://view.genial.ly/5fb54b6d7ccdc50d43fbf166/interactive-content-ghasau-final" target="_blank" class="gha-app-card">
       <span>Familias Lagartos</span>
       <img src="images/enlaces/genially.jpg" alt="Lagartos Colombia"/>
