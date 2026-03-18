@@ -97,6 +97,16 @@
 
 # Otros enlaces de interés
 
+## Herpetología en Colombia
+
+- [Batrachia](https://www.batrachia.com/)
+- [Dataverso de Sonidos de Anfibios](https://colombianfrogs.github.io/sounds/)
+- [Santander Herpetológico](https://www.santanderherps.com/)
+- [Colección de Anfibios ICN](https://www.instagram.com/anficol_icn/)
+- [Herpetólogos de Colombia](https://www.facebook.com/groups/12044204183/?rdid=6Vhfkf4Wv7URfV3X&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F18aQhSWXry%2F#)
+
+---
+
 ## Bases de datos y repositorios
 
 - [Amphibians Species of the World](https://amphibiansoftheworld.amnh.org)
