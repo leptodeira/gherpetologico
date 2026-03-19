@@ -108,11 +108,12 @@ Profesor Asociado, Instituto de Biología.
 
 ### Freddy A. Grisales Martínez, Biol.
 **Posición:** Estudiante de Maestría  
-**Interés en investigación:** Ecología e historia de vida de anfibios y reptiles.  
+**Interés en investigación:** Filogenética, Taxonomía, Historia Natural, Biogeografía.  
 **Email:** <a href="mailto:grisso88@gmail.com">grisso88@gmail.com</a>
 
 <div class="miembro-links">
   <!-- Borra las líneas que no apliquen -->
+  <a href="https://scholar.google.com/citations?hl=es&user=xH82JDYAAAAJ&scilu=&scisig=AF5TLtkAAAAAabrUcwPu680Zj4TjKG92gAdyZxY&gmla=AF9nlQvkVBMdtT6S6zhED5IrXJ0ker1YrvsqmhtC9kzsyDNjBbz94rX4HtbAIfrfOCSvFoWtSTVNCB04CaiIO2QYNbs_EkPhi1lCCsPPMNCzpO_8z0TrJKwLqw&sciund=16455609402704498303" target="_blank" class="btn-miembro scholar">Google Scholar</a>
 </div>
 
   </div>
