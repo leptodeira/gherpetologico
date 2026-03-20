@@ -152,6 +152,6 @@
 ## Nuestra universidad
 
 - [Universidad de Antioquia](https://www.udea.edu.co)
-- [Colecciones Biológicas UdeA](https://www.udea.edu.co/wps/portal/udea/web/inicio/cultura)
+- [Colecciones Biológicas UdeA](https://www.udea.edu.co/wps/portal/udea/web/inicio/cultura/colecciones-biologicas)
 
 
