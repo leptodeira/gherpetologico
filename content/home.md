@@ -69,15 +69,15 @@ El impacto del GHA se refleja en su liderazgo en publicaciones científicas, con
     </a>
     <a href="https://view.genially.com/5fb54b6a48db0b0cf2370ca0" target="_blank" class="gha-app-card">
       <span>Familias Anfibios</span>
-      <img src="images/enlaces/genially.jpg" alt="Anfibios Colombia"/>
+      <img src="images/enlaces/app_anfibios_genially.png" alt="Anfibios Colombia"/>
     </a>
     <a href="https://view.genial.ly/5fb54b6d7ccdc50d43fbf166/interactive-content-ghasau-final" target="_blank" class="gha-app-card">
       <span>Familias Lagartos</span>
-      <img src="images/enlaces/genially.jpg" alt="Lagartos Colombia"/>
+      <img src="images/enlaces/app_reptiles_genially.png" alt="Lagartos Colombia"/>
     </a>
     <a href="https://view.genially.com/5fc19711b74d070cf7c8e541" target="_blank" class="gha-app-card">
       <span>Tortugas de Colombia</span>
-      <img src="images/enlaces/genially.jpg" alt="Tortugas Colombia"/>
+      <img src="images/enlaces/app_tortugas_genially.png" alt="Tortugas Colombia"/>
     </a>
     <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-app-card">
       <span>Dataverso de Sonidos</span>
