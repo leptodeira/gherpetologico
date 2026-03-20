@@ -61,17 +61,17 @@
       <p class="gha-card-desc">En 2011 el GHA en conjunto con la ACH creamos el proyecto Anfibios y Reptiles de Colombia que hoy incluye mas de 116,000 observaciones y sigue creciendo!.</p>
     </a>
     <a href="https://view.genially.com/5fb54b6a48db0b0cf2370ca0" target="_blank" class="gha-card">
-      <img src="images/enlaces/genially.jpg" alt="Anfibios"/>
+      <img src="images/enlaces/app_anfibios_genially.png" alt="Anfibios"/>
       <div class="gha-card-title">Familias Anfibios</div>
       <p class="gha-card-desc">Durante la pandemia de covid generamos en Genially Education un recurso interactivo para identificar los principales grupos y familias de anfibios de Colombia.</p>
     </a>
     <a href="https://view.genial.ly/5fb54b6d7ccdc50d43fbf166/interactive-content-ghasau-final" target="_blank" class="gha-card">
-      <img src="images/enlaces/genially.jpg" alt="Lagartos"/>
+      <img src="images/enlaces/app_reptiles_genially.png" alt="Lagartos"/>
       <div class="gha-card-title">Familias Lagartos</div>
       <p class="gha-card-desc">Durante la pandemia de covid generamos en Genially Education un recurso interactivo para identificar las familias de lagartos de Colombia.</p>
     </a>
     <a href="https://view.genially.com/5fc19711b74d070cf7c8e541" target="_blank" class="gha-card">
-      <img src="images/enlaces/genially.jpg" alt="Tortugas"/>
+      <img src="images/enlaces/app_tortugas_genially.png" alt="Tortugas"/>
       <div class="gha-card-title">Tortugas de Colombia</div>
       <p class="gha-card-desc">Recurso interactivo para identificar las familias de tortugas de Colombia. Incluye información sobre las especies del páis.</p>
     </a>
