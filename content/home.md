@@ -67,9 +67,17 @@ El impacto del GHA se refleja en su liderazgo en publicaciones científicas, con
       <span>Herpetofauna de Colombia</span>
       <img src="images/enlaces/col_inat.png" alt="Herpetos de Colombia"/>
     </a>
+    <a href="https://view.genially.com/5fb54b6a48db0b0cf2370ca0" target="_blank" class="gha-app-card">
+      <span>Familias Anfibios</span>
+      <img src="images/enlaces/app_anfibios_genially.png" alt="Anfibios Colombia"/>
+    </a>
     <a href="https://view.genial.ly/5fb54b6d7ccdc50d43fbf166/interactive-content-ghasau-final" target="_blank" class="gha-app-card">
       <span>Familias Lagartos</span>
-      <img src="images/enlaces/genially.jpg" alt="Lagartos Colombia"/>
+      <img src="images/enlaces/app_reptiles_genially.png" alt="Lagartos Colombia"/>
+    </a>
+    <a href="https://view.genially.com/5fc19711b74d070cf7c8e541" target="_blank" class="gha-app-card">
+      <span>Tortugas de Colombia</span>
+      <img src="images/enlaces/app_tortugas_genially.png" alt="Tortugas Colombia"/>
     </a>
     <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-app-card">
       <span>Dataverso de Sonidos</span>
@@ -78,10 +86,6 @@ El impacto del GHA se refleja en su liderazgo en publicaciones científicas, con
     <a href="#" onclick="apkOpen(); return false;" class="gha-app-card">
       <span>Grabadora Pasiva</span>
       <img src="images/enlaces/pasiva.png" alt="Grabadora Pasiva"/>
-    </a>
-    <a href="https://leptodeira.github.io/anfibios/" target="_blank" class="gha-app-card">
-      <span>Anfibios de Colombia</span>
-      <img src="images/enlaces/col_anf.png" alt="Anfibios de Colombia"/>
     </a>
     <a href="https://leptodeira.github.io/reptiles/" target="_blank" class="gha-app-card">
       <span>Reptiles de Colombia</span>
@@ -96,8 +100,4 @@ El impacto del GHA se refleja en su liderazgo en publicaciones científicas, con
   <span style="font-size:1rem; color:#1b5e20; font-weight:600; vertical-align:middle; margin-right:12px;">Síguenos en redes</span>
   <a href="https://www.instagram.com/gha_herpetologia/" target="_blank" style="text-decoration:none; vertical-align:middle; margin-right:8px;">
     <img src="images/home/ig.png" width="40" height="40" alt="Instagram" style="vertical-align:middle; border-radius:8px;"/>
-  </a>
-  <a href="https://x.com/gHerpetologico" target="_blank" style="text-decoration:none; vertical-align:middle;">
-    <img src="images/home/x.png" width="40" height="40" alt="X" style="vertical-align:middle; border-radius:8px;"/>
-  </a>
 </p>

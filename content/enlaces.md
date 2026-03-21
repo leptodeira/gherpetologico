@@ -58,12 +58,22 @@
     <a href="https://www.inaturalist.org/projects/amphibians-and-reptiles-of-colombia" target="_blank" class="gha-card">
       <img src="images/enlaces/col_inat.png" alt="iNaturalist"/>
       <div class="gha-card-title">Herpetofauna de Colombia</div>
-      <p class="gha-card-desc">En 2011 el GHA en conjunto con la ACH creo el proyecto Anfibios y Reptiles de Colombia que hoy incluye mas de 116,000 observaciones y sigue creciendo.</p>
+      <p class="gha-card-desc">En 2011 el GHA en conjunto con la ACH creamos el proyecto Anfibios y Reptiles de Colombia que hoy incluye mas de 116,000 observaciones y sigue creciendo!.</p>
+    </a>
+    <a href="https://view.genially.com/5fb54b6a48db0b0cf2370ca0" target="_blank" class="gha-card">
+      <img src="images/enlaces/app_anfibios_genially.png" alt="Anfibios"/>
+      <div class="gha-card-title">Familias Anfibios</div>
+      <p class="gha-card-desc">Durante la pandemia de covid generamos en Genially Education un recurso interactivo para identificar los principales grupos y familias de anfibios de Colombia.</p>
     </a>
     <a href="https://view.genial.ly/5fb54b6d7ccdc50d43fbf166/interactive-content-ghasau-final" target="_blank" class="gha-card">
-      <img src="images/enlaces/genially.jpg" alt="Lagartos"/>
+      <img src="images/enlaces/app_reptiles_genially.png" alt="Lagartos"/>
       <div class="gha-card-title">Familias Lagartos</div>
       <p class="gha-card-desc">Durante la pandemia de covid generamos en Genially Education un recurso interactivo para identificar las familias de lagartos de Colombia.</p>
+    </a>
+    <a href="https://view.genially.com/5fc19711b74d070cf7c8e541" target="_blank" class="gha-card">
+      <img src="images/enlaces/app_tortugas_genially.png" alt="Tortugas"/>
+      <div class="gha-card-title">Tortugas de Colombia</div>
+      <p class="gha-card-desc">Recurso interactivo para identificar las familias de tortugas de Colombia. Incluye información sobre las especies del páis.</p>
     </a>
     <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-card">
       <img src="images/enlaces/col_sou.png" alt="Sonidos"/>
@@ -73,17 +83,12 @@
     <a href="#" onclick="apkOpen(); return false;" class="gha-card">
       <img src="images/enlaces/pasiva.png" alt="Grabadora Pasiva"/>
       <div class="gha-card-title">Grabadora Pasiva</div>
-      <p class="gha-card-desc">App para Android que convierte tu telefono celular en una grabadora pasiva.</p>
-    </a>
-    <a href="https://leptodeira.github.io/anfibios/" target="_blank" class="gha-card">
-      <img src="images/enlaces/col_anf.png" alt="Anfibios"/>
-      <div class="gha-card-title">Anfibios de Colombia</div>
-      <p class="gha-card-desc">Clave interactiva para la identificación de anfibios de Colombia. Funciona tambien sin acceso a internet. Es una app para computador, iOS y Android.</p>
+      <p class="gha-card-desc">App para Android que convierte tu telefono celular en una grabadora pasiva. Util para cursos de bioacústica y para experimentos cortos.</p>
     </a>
     <a href="https://leptodeira.github.io/reptiles/" target="_blank" class="gha-card">
       <img src="images/enlaces/col_rep.png" alt="Reptiles"/>
       <div class="gha-card-title">Reptiles de Colombia</div>
-      <p class="gha-card-desc">Clave interactiva para la identificación de reptiles de Colombia. Funciona tambien sin acceso a internet. Es una app para computador, iOS y Android..</p>
+      <p class="gha-card-desc">Clave interactiva para la identificación de reptiles de Colombia. Funciona tambien sin acceso a internet. Es una app para computador, iOS y Android.</p>
     </a>
   </div>
 </div>
@@ -91,6 +96,16 @@
 
 
 # Otros enlaces de interés
+
+## Herpetología en Colombia
+
+- [Batrachia](https://www.batrachia.com/)
+- [Dataverso de Sonidos de Anfibios](https://colombianfrogs.github.io/sounds/)
+- [Santander Herpetológico](https://www.santanderherps.com/)
+- [Colección de Anfibios ICN](https://www.instagram.com/anficol_icn/)
+- [Herpetólogos de Colombia](https://www.facebook.com/groups/12044204183/?rdid=6Vhfkf4Wv7URfV3X&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fg%2F18aQhSWXry%2F#)
+
+---
 
 ## Bases de datos y repositorios
 
@@ -137,6 +152,6 @@
 ## Nuestra universidad
 
 - [Universidad de Antioquia](https://www.udea.edu.co)
-- [Colecciones Biológicas UdeA](https://www.udea.edu.co/wps/portal/udea/web/inicio/cultura)
+- [Colecciones Biológicas UdeA](https://www.udea.edu.co/wps/portal/udea/web/inicio/cultura/colecciones-biologicas)
 
 

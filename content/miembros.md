@@ -21,6 +21,28 @@ Curador Adjunto, Museo Universitario MUUA.
 </div>
 
 ---
+
+<div class="miembro">
+  <img src="images/miembros/mauricio_rivera.jpg" alt="Mauricio Rivera" class="foto-miembro">
+  <div class="miembro-info">
+
+### Mauricio Rivera, Biol., PhD
+**Posición:** Investigador Principal  
+Profesor Asociado, Instituto de Biología.  
+**Interés en investigación:** Sistemática, Taxonomía, Biodiversidad, Conservación Biológica, Divulgación Científica  
+**Email:** <a href="mailto:mauricio.rivera1@udea.edu.co">mauricio.rivera1@udea.edu.co</a>
+
+<div class="miembro-links">
+  <!-- Borra las líneas que no apliquen -->
+  <a href="https://scholar.google.com/citations?user=tAJ3TjYAAAAJ&hl=es&oi=ao" target="_blank" class="btn-miembro scholar">Google Scholar</a>
+  <a href="https://www.instagram.com/biodiversitario/" target="_blank" class="btn-miembro instagram">Instagram</a>
+</div>
+
+  </div>
+</div>
+
+---
+
 <div class="miembro">
   <img src="images/miembros/vivian_paez.jpg" alt="Vivian P. Páez" class="foto-miembro">
   <div class="miembro-info">
@@ -33,10 +55,6 @@ Curador Adjunto, Museo Universitario MUUA.
 <div class="miembro-links">
   <!-- Borra las líneas que no apliquen -->
   <a href="https://scholar.google.com/citations?user=ov0ddhYAAAAJ&hl=es" target="_blank" class="btn-miembro scholar">Google Scholar</a>
-</div>
-
-<div class="miembro-links">
- 
 </div>
 
   </div>
@@ -90,11 +108,12 @@ Curador Adjunto, Museo Universitario MUUA.
 
 ### Freddy A. Grisales Martínez, Biol.
 **Posición:** Estudiante de Maestría  
-**Interés en investigación:** Ecología e historia de vida de anfibios y reptiles.  
+**Interés en investigación:** Filogenética, Taxonomía, Historia Natural, Biogeografía.  
 **Email:** <a href="mailto:grisso88@gmail.com">grisso88@gmail.com</a>
 
 <div class="miembro-links">
   <!-- Borra las líneas que no apliquen -->
+  <a href="https://scholar.google.com/citations?hl=es&user=xH82JDYAAAAJ&scilu=&scisig=AF5TLtkAAAAAabrUcwPu680Zj4TjKG92gAdyZxY&gmla=AF9nlQvkVBMdtT6S6zhED5IrXJ0ker1YrvsqmhtC9kzsyDNjBbz94rX4HtbAIfrfOCSvFoWtSTVNCB04CaiIO2QYNbs_EkPhi1lCCsPPMNCzpO_8z0TrJKwLqw&sciund=16455609402704498303" target="_blank" class="btn-miembro scholar">Google Scholar</a>
 </div>
 
   </div>
@@ -209,6 +228,7 @@ Curador Adjunto, Museo Universitario MUUA.
 
 <div class="miembro-links">
   <!-- Borra las líneas que no apliquen -->
+  <a href="https://scholar.google.com/citations?user=ygH4fuMAAAAJ&hl=en" target="_blank" class="btn-miembro scholar">Google Scholar</a>
   <a href="https://instagram.com/will_a.sanchez" target="_blank" class="btn-miembro instagram">Instagram</a>
 </div>
 

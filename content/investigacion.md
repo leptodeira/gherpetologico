@@ -210,7 +210,7 @@
 
 # Publicaciones Recientes
 
-**En negrita se resaltan los miembros del GHA**
+**En negrita los miembros del GHA**
 
 <ul class="pub-lista">
 
@@ -245,7 +245,7 @@
 
 <div class="scholar-cta">
   <p>Consulta nuestra producción científica</p>
-  <a class="btn-scholar" href="https://scholar.google.com/citations?user=XXXXX" target="_blank" rel="noopener">
+  <a class="btn-scholar" href="https://scholar.google.es/citations?hl=es&user=1lZtRUMAAAAJ&view_op=list_works" target="_blank" rel="noopener">
     📚 Ver en Google Scholar
   </a>
 </div>
