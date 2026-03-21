@@ -372,7 +372,7 @@ document.addEventListener('keydown', function(e) {
 # El MHUA en números
 
 <!-- Reemplaza "images/museo/infografia.png" con tu imagen real -->
-<img src="images/museo/infografia.jpg" alt="El MHUA en números — infografía" class="museo-numeros-img" />
+<img src="images/museo/infografia.png" alt="El MHUA en números — infografía" class="museo-numeros-img" />
 
 ---
 
