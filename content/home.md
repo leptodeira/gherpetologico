@@ -100,4 +100,8 @@ El impacto del GHA se refleja en su liderazgo en publicaciones científicas, con
   <span style="font-size:1rem; color:#1b5e20; font-weight:600; vertical-align:middle; margin-right:12px;">Síguenos en redes</span>
   <a href="https://www.instagram.com/gha_herpetologia/" target="_blank" style="text-decoration:none; vertical-align:middle; margin-right:8px;">
     <img src="images/home/ig.png" width="40" height="40" alt="Instagram" style="vertical-align:middle; border-radius:8px;"/>
+  </a>
+  <a href="https://www.youtube.com/@grupoherpetologicodeantioq6115" target="_blank" style="text-decoration:none; vertical-align:middle; margin-right:8px;">
+    <img src="images/home/youtube.png" width="40" height="40" alt="YouTube" style="vertical-align:middle; border-radius:8px;"/>
+  </a>
 </p>
