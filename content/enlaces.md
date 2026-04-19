@@ -75,7 +75,7 @@
       <div class="gha-card-title">Tortugas de Colombia</div>
       <p class="gha-card-desc">Recurso interactivo para identificar las familias de tortugas de Colombia. Incluye información sobre las especies del páis.</p>
     </a>
-    <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-card">
+    <a href="https://colombian-sounds.github.io/sounds/" target="_blank" class="gha-card">
       <img src="images/enlaces/col_sou.png" alt="Sonidos"/>
       <div class="gha-card-title">Dataverso de Sonidos</div>
       <p class="gha-card-desc">Con el objetivo de visualizar y acceder en un mismo sitio los datos acústicos disponibles para anfibios Colombianos diseñamos y mantenemos este sitio que sirve para la comunidad académica y general.</p>

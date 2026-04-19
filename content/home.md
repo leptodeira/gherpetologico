@@ -79,7 +79,7 @@ El impacto del GHA se refleja en su liderazgo en publicaciones científicas, con
       <span>Tortugas de Colombia</span>
       <img src="images/enlaces/app_tortugas_genially.png" alt="Tortugas Colombia"/>
     </a>
-    <a href="https://colombianfrogs.github.io/sounds/" target="_blank" class="gha-app-card">
+    <a href="https://colombian-sounds.github.io/sounds/" target="_blank" class="gha-app-card">
       <span>Dataverso de Sonidos</span>
       <img src="images/enlaces/col_sou.png" alt="Dataverso de Sonidos"/>
     </a>
