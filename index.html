@@ -705,6 +705,9 @@
           </p>`;
       }
 
+      // Actualizar URL (hash routing)
+      window.location.hash = section === 'home' ? '' : section;
+
       // Actualizar título de la pestaña del navegador
       document.title = section === 'home'
         ? SITE_TITLE
@@ -720,7 +723,10 @@
        ────────────────────────────────────────────────────────── */
     document.getElementById('year').textContent = new Date().getFullYear();
     buildCarousel();
-    loadSection('home');
+
+    // Leer hash al cargar la página
+    const initialSection = window.location.hash.replace('#', '') || 'home';
+    loadSection(initialSection);
 
     /* ──────────────────────────────────────────────────────────
        POPUP GRABADORA PASIVA

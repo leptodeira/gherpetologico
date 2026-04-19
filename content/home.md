@@ -65,7 +65,7 @@ El impacto del GHA se refleja en su liderazgo en publicaciones científicas, con
   <div class="gha-apps-grid">
     <a href="https://www.inaturalist.org/projects/amphibians-and-reptiles-of-colombia" target="_blank" class="gha-app-card">
       <span>Herpetofauna de Colombia</span>
-      <img src="images/enlaces/col_inat.png" alt="Herpetos de Colombia"/>
+      <img src="images/enlaces/inat.png" alt="Herpetos de Colombia"/>
     </a>
     <a href="https://view.genially.com/5fb54b6a48db0b0cf2370ca0" target="_blank" class="gha-app-card">
       <span>Familias Anfibios</span>

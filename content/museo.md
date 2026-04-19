@@ -389,6 +389,20 @@ document.addEventListener('keydown', function(e) {
 
 ---
 
+# Impacto en ciencia
+
+<p class="museo-intro">
+Los especímenes depositados en el MHUA han sido fundamentales en decenas de publicaciones científicas en taxonomía, sistemática, biogeografía y ecología de anfibios y reptiles de Colombia y el Neotrópico. Cada registro de colección es un dato con respaldo físico que sustenta descripciones de nuevas especies, estudios filogenéticos y análisis de distribución geográfica, consolidando al museo como una fuente de referencia para la comunidad científica nacional e internacional.
+</p>
+
+<div class="acceso-btns">
+  <a class="acceso-btn" href="https://scholar.google.com/citations?hl=es&user=DYSkCUIAAAAJ&view_op=list_works&authuser=3&gmla=AEk_c1vL0m1_2Gjnb_ug-4At9xpMRE_441ytP-y-nwk2AZ9seeKXQgM_7cmU6eSg85McNI8R_8ow8xXrLAi8yklVX1NH-Ztjhj5Tv_Se" target="_blank" rel="noopener">
+    <span class="btn-icon">🎓</span> Ver publicaciones en Google Scholar
+  </a>
+</div>
+
+---
+
 # Encuéntranos también en
 
 <style>

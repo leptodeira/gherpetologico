@@ -56,7 +56,7 @@
 
   <div class="gha-grid">
     <a href="https://www.inaturalist.org/projects/amphibians-and-reptiles-of-colombia" target="_blank" class="gha-card">
-      <img src="images/enlaces/col_inat.png" alt="iNaturalist"/>
+      <img src="images/enlaces/inat.png" alt="iNaturalist"/>
       <div class="gha-card-title">Herpetofauna de Colombia</div>
       <p class="gha-card-desc">En 2011 el GHA en conjunto con la ACH creamos el proyecto Anfibios y Reptiles de Colombia que hoy incluye mas de 116,000 observaciones y sigue creciendo!.</p>
     </a>
