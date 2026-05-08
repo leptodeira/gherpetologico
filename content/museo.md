@@ -307,6 +307,7 @@ Con más de 22,000 especímenes y 11,000 tejidos, el Museo de Herpetología Univ
     <a class="modal-link" href="forms/MHUA_Plantilla_ingreso_especimenes_v202603.xlsx" download>
       ⬇ Descargar formulario
     </a>
+    <br>
     <a class="modal-link" href="mailto:museo.herpetologia@udea.edu.co?subject=Ingreso%20de%20especímenes%20MHUA">
       📧 Enviar formulario diligenciado
     </a>
