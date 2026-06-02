@@ -176,6 +176,24 @@ Profesor Asociado, Instituto de Biología.
   </div>
 </div>
 
+---
+
+<div class="miembro">
+  <img src="images/miembros/marisol_rivera.jpeg" alt="Marisol Londoño Rivera" class="foto-miembro">
+  <div class="miembro-info">
+
+### Marisol Londoño Rivera
+**Posición:** Estudiante de pregrado.  
+**Interés en investigación:** Ecofisiología.  
+**Email:** <a href="mailto:marisol.londono4@udea.edu.co ">marisol.londono4@udea.edu.co</a>
+
+<div class="miembro-links">
+  <!-- Borra las líneas que no apliquen -->
+</div>
+
+  </div>
+</div>
+
 # Investigadores adjuntos
 
 <div class="miembro">
