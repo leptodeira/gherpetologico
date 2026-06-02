@@ -179,7 +179,7 @@ Profesor Asociado, Instituto de Biología.
 ---
 
 <div class="miembro">
-  <img src="images/miembros/marisol_rivera.jpeg" alt="Marisol Londoño Rivera" class="foto-miembro">
+  <img src="images/miembros/marisol_londono.png" alt="Marisol Londoño Rivera" class="foto-miembro">
   <div class="miembro-info">
 
 ### Marisol Londoño Rivera
@@ -189,6 +189,44 @@ Profesor Asociado, Instituto de Biología.
 
 <div class="miembro-links">
   <!-- Borra las líneas que no apliquen -->
+</div>
+
+  </div>
+</div>
+
+---
+
+<div class="miembro">
+  <img src="images/miembros/wilder_pallares.png" alt="Wilder Pallares" class="foto-miembro">
+  <div class="miembro-info">
+
+### Wilder Pallares
+**Posición:** Estudiante de pregrado.  
+**Interés en investigación:** Ecología urbana, ecología reproductiva, ecofisiología.  
+**Email:** <a href="mailto:wilder.pallares@udea.edu.co ">wilder.pallares@udea.edu.co</a>
+
+<div class="miembro-links">
+  <!-- Borra las líneas que no apliquen -->
+</div>
+
+  </div>
+</div>
+
+---
+
+<div class="miembro">
+  <img src="images/miembros/felipe_barrera.png" alt="Felipe Barrera-Ocampo" class="foto-miembro">
+  <div class="miembro-info">
+
+### Felipe Barrera-Ocampo
+**Posición:** Estudiante de pregrado.  
+**Interés en investigación:** Sistemática, Historia Natural, Biogeografía de anfibios y reptiles.  
+**Email:** <a href="mailto:felipe.barrerao@udea.edu.co ">felipe.barrerao@udea.edu.co</a>
+
+<div class="miembro-links">
+  <!-- Borra las líneas que no apliquen -->
+  <a href="https://orcid.org/0000-0003-3488-5719" target="_blank" class="btn-miembro web">ORCID</a>
+
 </div>
 
   </div>
