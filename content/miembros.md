@@ -8,7 +8,6 @@
 ### Juan Manuel Daza, Biol., MsC, PhD
 **Posición:** Investigador Principal  
 Profesor Asociado, Instituto de Biología.  
-Curador Adjunto, Museo Universitario MUUA.  
 **Interés en investigación:** Filogenética, Biogeografía, Ecoacústica, Taxonomía  
 **Email:** <a href="mailto:juanm.daza@udea.edu.co">juanm.daza@udea.edu.co</a>
 
