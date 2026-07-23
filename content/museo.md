@@ -336,8 +336,8 @@ Con más de 22,000 especímenes y 11,000 tejidos, el Museo de Herpetología Univ
     <p>
       Los investigadores que deseen revisar ejemplares de la colección en nuestras instalaciones o solicitar un préstamo de ellos, deben completar el formulario de solicitud, indicando el taxón de interés, el propósito de la revisión y las fechas tentativas. Las visitas están sujetas a disponibilidad del personal y a las políticas de ingreso de la Universidad.
     </p>
-    <a class="modal-link" href="formularios/revision_ejemplares.xlsx" download>
-      ⬇ Descargar formulario
+    <a class="modal-link" href="https://docs.google.com/forms/d/e/1FAIpQLSd5UTj0SwJQ4jhA67MZireT4mr9j3qKp60xzgQk_a_1qZ2-Zw/viewform?usp=header" target="_blank" rel="noopener noreferrer">
+      📝 Completar formulario
     </a>
   </div>
 </div>
