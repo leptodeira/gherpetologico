@@ -381,7 +381,6 @@ document.addEventListener('keydown', function(e) {
 ---
 
 # Ejemplares tipo
-
 <div class="tipo-grid">
   <img src="images/museo/tipo.jpg" alt="Ejemplar tipo MHUA" class="tipo-foto" />
   <div class="tipo-desc">
@@ -390,6 +389,8 @@ document.addEventListener('keydown', function(e) {
     </p>
   </div>
 </div>
+
+<img src="images/museo/holotipos_MHUA.png" alt="Holotipos MHUA" style="width: 400px;" />
 
 ---
 
