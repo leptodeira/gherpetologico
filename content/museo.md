@@ -391,7 +391,7 @@ document.addEventListener('keydown', function(e) {
 </div>
 
 <div style="text-align: center;">
-  <img src="images/museo/holotipos_MHUA.png" alt="Holotipos MHUA" style="width: 800px;" />
+  <img src="images/museo/holotipos_MHUA.png" alt="Holotipos MHUA" style="width: 100%; max-width: 800px; height: auto;" />
 </div>
 
 ---
