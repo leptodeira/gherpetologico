@@ -91,6 +91,10 @@ El impacto del GHA se refleja en su liderazgo en publicaciones científicas, con
       <span>Reptiles de Colombia</span>
       <img src="images/enlaces/col_rep.png" alt="Reptiles de Colombia"/>
     </a>
+    <a href="https://github.com/vmartinezarias/ecoacoustic_sampling" target="_blank" class="gha-app-card">
+      <span>MILEVA</span>
+      <img src="images/enlaces/mileva.png" alt="Mileva"/>
+    </a>
   </div>
 </div>
 
