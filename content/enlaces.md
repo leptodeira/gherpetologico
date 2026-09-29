@@ -90,6 +90,11 @@
       <div class="gha-card-title">Reptiles de Colombia</div>
       <p class="gha-card-desc">Clave interactiva para la identificación de reptiles de Colombia. Funciona tambien sin acceso a internet. Es una app para computador, iOS y Android.</p>
     </a>
+    <a href="https://github.com/vmartinezarias/ecoacoustic_sampling" target="_blank" class="gha-card">
+      <img src="images/enlaces/mileva.png" alt="Reptiles"/>
+      <div class="gha-card-title">MILEVA</div>
+      <p class="gha-card-desc">Plugin de QGIS que ayuda a decidir dónde ubicar grabadoras acústicas usando la estructura del paisaje. Basado en el flujo publicado en Martínez-Arias et.al. 2026.</p>
+    </a>
   </div>
 </div>
 
