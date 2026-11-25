@@ -70,6 +70,15 @@
   box-shadow: 0 6px 28px rgba(26,58,42,0.15);
 }
 
+/* ── NUESTRO LOGO ─────────────────────────────────────────────── */
+.museo-logo-img {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  margin: 1.5rem auto 2rem;
+}
+
 /* ── EJEMPLARES TIPO ──────────────────────────────────────────── */
 .tipo-grid {
   display: grid;
@@ -370,6 +379,16 @@ document.addEventListener('keydown', function(e) {
   }
 });
 </script>
+
+---
+
+# Nuestro Logo
+
+<img src="images/museo/logo_mhua.png" alt="Logo del Museo de Herpetología Universidad de Antioquia (MHUA)" class="museo-logo-img" />
+
+<p class="museo-intro">
+Inspirado en la solidez de las columnas que sostienen una casa, con el acrónimo internacional de nuestro Museo como protagonista. En su centro recrea a <i>Magdalenasaura</i>, único género de reptiles endémico de Colombia, descrito por integrantes del GHA y parte del patrimonio científico de nuestro Museo. Sus colores evocan los paisajes montañosos de los Andes colombianos, esos territorios que recorremos en busca de nuestros bichos. Una identidad que reúne ciencia, territorio, historia y pasión por nuestra herpetofauna.
+</p>
 
 ---
 
